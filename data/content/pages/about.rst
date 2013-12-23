@@ -25,3 +25,11 @@ recently, been developing programing skills to augment his daily activities.
 Throughout his career Darrel has utilized various languages and utilities to
 automate infrastructure.  Some of Darrel's programming has been with the use of
 Bash, net-snmp, sed, awk, and holistically with Python.
+
+You can find Darrel online in a professional context at LinkedIn_ and through
+his Resume_.
+
+
+.. LinkedIn_: https://www.linkedin.com/in/darrelclute
+
+.. Resume_: http://media.darrelclute.net/pdf/darrelclute3-resume.pdf
