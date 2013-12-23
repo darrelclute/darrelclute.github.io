@@ -1,10 +1,12 @@
 from setuptools import setup
 
-setup(name='YourAppName',
+requires = ['pelican>=3.3.0', 'Markdown', 'typogrify'] 
+
+setup(name='DCNet Website',
       version='1.0',
-      description='OpenShift App',
-      author='Your Name',
-      author_email='example@example.com',
-      url='http://www.python.org/sigs/distutils-sig/',
-#      install_requires=['Django>=1.3'],
+      description='My personal site and blog',
+      author='Darrel Clute',
+      author_email='darrel@darrelclute.net',
+      url='http://www.darrelclute.net',
+      install_requires=requires,
      )
