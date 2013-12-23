@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source ${OPENSHIFT_REPO_DIR}/conf/hook_variables
+
+httpd -f ${CONFIG_DIR}/httpd.conf -k stop
+
+exit 0

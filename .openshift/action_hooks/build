@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ${OPENSHIFT_REPO_DIR}/conf/hook_variables
+
+pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF}
