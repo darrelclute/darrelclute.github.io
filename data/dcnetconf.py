@@ -6,7 +6,7 @@ import sys
 from datetime import date
 
 # General Settings
-SITEURL = u'http://www.darrelclute.net:8000'
+SITEURL = u'http://www.darrelclute.net'
 SITENAME = u'Darrel Clute'
 FEEDURL = SITEURL
 AUTHOR = u'Darrel Clute'
@@ -59,6 +59,6 @@ USER_LOGO_URL = u'http://www.gravatar.com/avatar/2c83f7fbc77af26448eb5da73997515
 
 DELETE_OUTPUT_DIRECTORY = True
 DISQUS_SITENAME = "darrelclute"
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-5882709-1"
 
 AUTHOR_SUMMARY = "Darrel is an IT Infrastructure Architect focusing on Network and UNIX Systems Engineering.  The majority of Darrel's career has focused on Cisco for networking and numerous Linux distributions for systems, but has varied expertise outside of these technologies."
