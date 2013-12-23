@@ -2,4 +2,8 @@
 
 source ${OPENSHIFT_REPO_DIR}/conf/hook_variables
 
+if !-d $SITE_DIRECTORY ; then
+  mkdir -p $SITE_DIRECTORY
+fi
+
 pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF}
