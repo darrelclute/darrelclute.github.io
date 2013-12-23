@@ -29,7 +29,7 @@ AUTHOR_URL = None
 AUTHOR_SAVE_AS = None
 AUTHORS_URL = None
 AUTHORS_SAVE_AS = None
-ARCHIVES_SAVE_AS = u'archive.html'
+ARCHIVES_SAVE_AS = None
 SUMMARY_MAX_LENGTH = None
 ARTICLE_EXCLUDES = ('pages', 'drafts')
 THEME_STATIC_DIR = ''
@@ -57,7 +57,7 @@ HIDE_CATEGORIES_FROM_MENU = False
 DEFAULT_METADATA = (('location', 'Elizabeth CO'),)
 USER_LOGO_URL = u'http://www.gravatar.com/avatar/2c83f7fbc77af26448eb5da73997515c.png'
 
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
 DISQUS_SITENAME = "darrelclute"
 GOOGLE_ANALYTICS = "UA-5882709-1"
 
