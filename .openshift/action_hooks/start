@@ -2,11 +2,13 @@
 
 source ${OPENSHIFT_REPO_DIR}/conf/hook_variables
 
-if !-d ${CONFIG_DIR} ; then
+if [ -d ${CONFIG_DIR} ] ; then
+    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${CONFIG_DIR}
+else
     mkdir -p ${CONFIG_DIR}
+    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${CONFIG_DIR}
 fi
 
-cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${CONFIG_DIR}
 
 sed -i -e "s@OPENSHIFT_INTERNAL_IP@$OPENSHIFT_PYTHON_IP@g" -e "s@OPENSHIFT_HOMEDIR@$OPENSHIFT_HOMEDIR@g" -e "s@OPENSHIFT_DATA_DIR@$OPENSHIFT_DATA_DIR@g" -e "s@OPENSHIFT_LOG_DIR@$OPENSHIFT_PYTHON_LOG_DIR@g" -e "s@CONFIG_DIR@$CONFIG_DIR@g" ${CONFIG_DIR}/*.conf
 
