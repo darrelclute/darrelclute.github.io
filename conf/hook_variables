@@ -1,6 +1,6 @@
 PELICAN_INPUT=${OPENSHIFT_REPO_DIR}/data
 PELICAN_CONF=${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py
-SITE_DIRECTORY=${OPENSHIFT_DATADIR/public/default
+SITE_DIRECTORY=${OPENSHIFT_DATADIR}/public/default
 CONFIG_DIR=${OPENSHIFT_DATADIR}/conf
 THEME_DIR=${OPENSHIFT_DATADIR}/theme
 THEME_GIT=https://github.com/darrelclute/dcnet-theme-svbhack
