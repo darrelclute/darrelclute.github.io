@@ -2,11 +2,13 @@
 
 source ${OPENSHIFT_REPO_DIR}/conf/hook_variables
 
-if [ -d $SITE_DIRECTORY ] && [ -d ${THEME_DIR} ; then
+if [ -d ${SITE_DIRECTORY} ] && [ -d ${THEME_DIR} ] ; then
   GIT_WORK_TREE=${THEME_DIR} git pull
   pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF} -t ${THEME_DIR}
-else
+elif [ -d ${THEME_DIR} ] ; then
   mkdir -p $SITE_DIRECTORY
+  pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF} -t ${THEME_DIR}
+elif [ -d ${SITE_DIRECTORY} ] ; then
   git clone $THEME_GIT $THEME_DIR
   pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF} -t ${THEME_DIR}
 fi
