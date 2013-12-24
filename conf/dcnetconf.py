@@ -49,7 +49,6 @@ LINKEDIN_USERNAME = u'darrelclute'
 GOOGLE_PLUS_USERNAME = u'DarrelClute'
 
 # Presentation
-THEME = u'dcnet-theme'
 DEFAULT_PAGINATION = 5
 RELATIVE_URLS = False
 DISPLAY_PAGES_ON_MENU = True

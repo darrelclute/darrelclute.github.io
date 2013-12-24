@@ -67,7 +67,7 @@ correlate that to utilizing reStructuredText_ which would be a better fit for
 me.
 
 My last post I partially wrote out in reStructuredText_ before publishing just
-to ensure that I could start building my new workflwo.  I knew that I wanted to
+to ensure that I could start building my new workflow.  I knew that I wanted to
 have my posts and such stored in Git_ as I have gotten quite used to it being
 part of many of my other workflows.  With also being a Python_ user for my
 programming I completed a few quick Google searches and found Pelican_.  
@@ -210,6 +210,8 @@ for your sake, it may be time to make changes for yourself.
 
 .. _Red Hat's: http://www.redhat.com/
 
-.. _OpenSift Online: http://openshift.com/
+.. _OpenShift Online: http://openshift.com/
 
 .. _Disqus: http://disqus.com
+
+.. _Vim: http://www.vim.org/
