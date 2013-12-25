@@ -30,6 +30,6 @@ You can find Darrel online in a professional context at LinkedIn_ and through
 his Resume_.
 
 
-.. LinkedIn_: https://www.linkedin.com/in/darrelclute
+.. _LinkedIn: https://www.linkedin.com/in/darrelclute
 
-.. Resume_: http://media.darrelclute.net/pdf/darrelclute3-resume.pdf
+.. _Resume: http://media.darrelclute.net/pdf/darrelclute3-resume.pdf
