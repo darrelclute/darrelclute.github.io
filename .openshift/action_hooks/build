@@ -1,16 +1,16 @@
 #!/bin/bash
 
-if [ -d ${OPENSHIFT_DATADIR}/public/default ] && [ -d ${OPENSHIFT_DATADIR}/theme ] ; then
-  GIT_WORK_TREE=${OPENSHIFT_DATADIR}/theme git pull
-  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
-elif [ -d ${OPENSHIFT_DATADIR}/theme ] ; then
-  mkdir -p $OPENSHIFT_DATADIR/public/default
-  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
-elif [ -d ${OPENSHIFT_DATADIR}/public/default ] ; then
-  git clone $https://github.com/darrelclute/dcnet-theme-svbhack $OPENSHIFT_DATADIR/theme
-  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
+if [ -d ${OPENSHIFT_DATA_DIR}/public/default ] && [ -d ${OPENSHIFT_DATA_DIR}/theme ] ; then
+  GIT_WORK_TREE=${OPENSHIFT_DATA_DIR}/theme git pull
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATA_DIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATA_DIR}/theme
+elif [ -d ${OPENSHIFT_DATA_DIR}/theme ] ; then
+  mkdir -p $OPENSHIFT_DATA_DIR/public/default
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATA_DIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATA_DIR}/theme
+elif [ -d ${OPENSHIFT_DATA_DIR}/public/default ] ; then
+  git clone $https://github.com/darrelclute/dcnet-theme-svbhack $OPENSHIFT_DATA_DIR/theme
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATA_DIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATA_DIR}/theme
 else
-  mkdir -p $OPENSHIFT_DATADIR/public/default
-  git clone $https://github.com/darrelclute/dcnet-theme-svbhack $OPENSHIFT_DATADIR/theme
-  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
+  mkdir -p $OPENSHIFT_DATA_DIR/public/default
+  git clone $https://github.com/darrelclute/dcnet-theme-svbhack $OPENSHIFT_DATA_DIR/theme
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATA_DIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATA_DIR}/theme
 fi
