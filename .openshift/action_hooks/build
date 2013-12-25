@@ -1,24 +1,16 @@
 #!/bin/bash
 
-
-PELICAN_INPUT=${OPENSHIFT_REPO_DIR}/data
-PELICAN_CONF=${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py
-SITE_DIRECTORY=${OPENSHIFT_DATADIR}/public/default
-CONFIG_DIR=${OPENSHIFT_DATADIR}/conf
-THEME_DIR=${OPENSHIFT_DATADIR}/theme
-THEME_GIT=https://github.com/darrelclute/dcnet-theme-svbhack
-
-if [ -d ${SITE_DIRECTORY} ] && [ -d ${THEME_DIR} ] ; then
-  GIT_WORK_TREE=${THEME_DIR} git pull
-  pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF} -t ${THEME_DIR}
-elif [ -d ${THEME_DIR} ] ; then
-  mkdir -p $SITE_DIRECTORY
-  pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF} -t ${THEME_DIR}
-elif [ -d ${SITE_DIRECTORY} ] ; then
-  git clone $THEME_GIT $THEME_DIR
-  pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF} -t ${THEME_DIR}
+if [ -d ${OPENSHIFT_DATADIR}/public/default ] && [ -d ${OPENSHIFT_DATADIR}/theme ] ; then
+  GIT_WORK_TREE=${OPENSHIFT_DATADIR}/theme git pull
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
+elif [ -d ${OPENSHIFT_DATADIR}/theme ] ; then
+  mkdir -p $OPENSHIFT_DATADIR/public/default
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
+elif [ -d ${OPENSHIFT_DATADIR}/public/default ] ; then
+  git clone $https://github.com/darrelclute/dcnet-theme-svbhack $OPENSHIFT_DATADIR/theme
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
 else
-  mkdir -p $SITE_DIRECTORY
-  git clone $THEME_GIT $THEME_DIR
-  pelican ${PELICAN_INPUT} -o ${SITE_DIRECTORY} -s ${PELICAN_CONF} -t ${THEME_DIR}
+  mkdir -p $OPENSHIFT_DATADIR/public/default
+  git clone $https://github.com/darrelclute/dcnet-theme-svbhack $OPENSHIFT_DATADIR/theme
+  pelican ${OPENSHIFT_REPO_DIR}/data -o ${OPENSHIFT_DATADIR}/public/default -s ${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py -t ${OPENSHIFT_DATADIR}/theme
 fi

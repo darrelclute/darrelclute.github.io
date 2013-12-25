@@ -1,22 +1,15 @@
 #!/bin/bash
 
-PELICAN_INPUT=${OPENSHIFT_REPO_DIR}/data
-PELICAN_CONF=${OPENSHIFT_REPO_DIR}/conf/dcnetconf.py
-SITE_DIRECTORY=${OPENSHIFT_DATADIR}/public/default
-CONFIG_DIR=${OPENSHIFT_DATADIR}/conf
-THEME_DIR=${OPENSHIFT_DATADIR}/theme
-THEME_GIT=https://github.com/darrelclute/dcnet-theme-svbhack
-
-if [ -d ${CONFIG_DIR} ] ; then
-    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${CONFIG_DIR}
+if [ -d ${OPENSHIFT_DATADIR}/conf ] ; then
+    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${OPENSHIFT_DATADIR}/conf
 else
-    mkdir -p ${CONFIG_DIR}
-    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${CONFIG_DIR}
+    mkdir -p ${OPENSHIFT_DATADIR}/conf
+    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${OPENSHIFT_DATADIR}/conf
 fi
 
 
-sed -i -e "s@OPENSHIFT_INTERNAL_IP@$OPENSHIFT_PYTHON_IP@g" -e "s@OPENSHIFT_HOMEDIR@$OPENSHIFT_HOMEDIR@g" -e "s@OPENSHIFT_DATA_DIR@$OPENSHIFT_DATA_DIR@g" -e "s@OPENSHIFT_LOG_DIR@$OPENSHIFT_PYTHON_LOG_DIR@g" -e "s@CONFIG_DIR@$CONFIG_DIR@g" ${CONFIG_DIR}/*.conf
+sed -i -e "s@OPENSHIFT_INTERNAL_IP@$OPENSHIFT_PYTHON_IP@g" -e "s@OPENSHIFT_HOMEDIR@$OPENSHIFT_HOMEDIR@g" -e "s@OPENSHIFT_DATA_DIR@$OPENSHIFT_DATA_DIR@g" -e "s@OPENSHIFT_LOG_DIR@$OPENSHIFT_PYTHON_LOG_DIR@g" -e "s@CONFIG_DIR@${OPENSHIFT_DATADIR}/conf@g" ${OPENSHIFT_DATADIR}/conf/*.conf
 
-httpd -f ${CONFIG_DIR}/httpd.conf -k start
+httpd -f ${OPENSHIFT_DATADIR}/conf/httpd.conf -k start
 
 exit 0
