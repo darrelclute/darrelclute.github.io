@@ -1,10 +1,10 @@
 #!/bin/bash
 
 if [ -d ${OPENSHIFT_DATA_DIR}/conf ] ; then
-    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${OPENSHIFT_DATA_DIR}/conf
+    cp ${OPENSHIFT_REPO_DIR}/conf/*.conf ${OPENSHIFT_DATA_DIR}/conf
 else
     mkdir -p ${OPENSHIFT_DATA_DIR}/conf
-    cp -y ${OPENSHIFT_REPO_DIR}/conf/*.conf ${OPENSHIFT_DATA_DIR}/conf
+    cp ${OPENSHIFT_REPO_DIR}/conf/*.conf ${OPENSHIFT_DATA_DIR}/conf
 fi
 
 
