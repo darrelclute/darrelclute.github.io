@@ -17,8 +17,8 @@ DEFAULT_DATE_FORMAT = u'%A, %B %d, %Y'
 COPYDATE = 2005
 CURDATE = date.today().year
 DIRECT_TEMPLATES = (u'index', u'archives', u'categories')
-ARTICLE_URL = u'{date:%Y}/{date:%m}/{slug}.html'
-ARTICLE_SAVE_AS = u'{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_URL = u'{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = u'{date:%Y}/{date:%m}/{slug}/index.html'
 MONTH_ARCHIVE_SAVE_AS = u'{date:%Y}/{date:%m}/index.html'
 YEAR_ARCHIVE_SAVE_AS = u'{date:%Y}/index.html'
 TAG_URL = None
@@ -36,8 +36,8 @@ ARTICLE_EXCLUDES = ('pages', 'drafts')
 THEME_STATIC_DIR = ''
 
 # Feed Settings
-FEED_ALL_ATOM = u'feeds/posts.xml'
-CATEGORY_FEED_ATOM = u'feeds/%s.xml'
+FEED_ALL_ATOM = u'feeds/index.xml'
+CATEGORY_FEED_ATOM = u'feeds/%s/index.xml'
 TRANSLATION_FEED_ATOM = None
 
 # Social Links
