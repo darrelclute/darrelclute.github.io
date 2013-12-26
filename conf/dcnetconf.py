@@ -35,6 +35,11 @@ SUMMARY_MAX_LENGTH = None
 ARTICLE_EXCLUDES = ('pages', 'drafts')
 THEME_STATIC_DIR = ''
 
+PAGINATION_PATTERNS = (
+    (1, '{base_name}/', '{base_name}/index.html'),
+    (2, '{base_name}/page{number}/', '{base_name}/page{number}/index.html'),
+)
+
 # Feed Settings
 FEED_ALL_ATOM = u'feeds/index.xml'
 CATEGORY_FEED_ATOM = u'feeds/%s/index.xml'
