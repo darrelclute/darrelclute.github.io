@@ -9,10 +9,24 @@ Problem With Silos
 ==================
 
 
+
 What is an Infrastructure Engineer
 ==================================
   Why not full stack engineer?
 
 
+
+Addressed by DevOps?
+====================
+
+
+
 What About Compliance?
 ======================
+
+
+
+Closing Thoughts
+================
+
+
