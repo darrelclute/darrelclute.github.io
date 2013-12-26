@@ -48,17 +48,9 @@ Thats all I have in the way of updates at this time. I'm going to try to
 keep the site more up-to-date from here on out, as long as `Drupal`_
 doesn't crap out again.
 
-|image0|
-
-.. raw:: html
-
-   </p>
-
 .. _Drupal: http://drupal.org/
 .. _Django: http://www.djangoproject.com/
 .. _Python: http://www.python.org/
 .. _PHP: http://www.php.net/
 .. _CCIE, Cisco Certified Internetwork Expert,: http://www.cisco.com/web/learning/le3/ccie/index.html
 .. _CCDE, Cisco Certified Design Expert.: http://www.cisco.com/web/learning/le3/ccde/index.html
-
-.. |image0| image:: http://feeds.feedburner.com/~r/darrelcluteblog/~4/c45GjHT1LN4
