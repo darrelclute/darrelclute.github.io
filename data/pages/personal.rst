@@ -20,7 +20,7 @@ As of September 16, 2009 Ayden is now a big brother, and Rachel and I are
 parents of two boys.  Levi was born at home, footling breach, and delivered by
 myself.  His entrance into the world was extremely fast.  `You can read about
 his arrival here
-<http://blog.darrelclute.net/2009/09/our-newest-arrival-year-later.html>`_.
+<http://www.darrelclute.net/2010/10/our-newest-arrival-a-year-later/>`_.
 Levi was tested for and confirmed to have `Down's Syndrome
 <http://en.wikipedia.org/wiki/Down%27s_syndrome>`_.
 Rachel and I are looking forward to helping Levi as he grows and are looking
