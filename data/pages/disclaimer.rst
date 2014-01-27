@@ -32,11 +32,6 @@ not limited to, damages for loss of use, data or profit) arising out of the use
 or inability to use any information contained within this site.  This shall
 hold irregardless of whether or not Author was notified of such damages.
 
-Blogging Ethics
-===============
-
-
-
 Disclosure
 ==========
 
