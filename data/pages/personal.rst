@@ -28,16 +28,17 @@ forward to seeing who Levi will be.
 
 Our family grew again on January 13, 2012, with the birth of Liam.  Another
 home birth, that was quite the arduous event as his labor was over 20 hours.
-And our family is not complete yet, as we are presently expecting the birth of
-our 4th child in January 2014.
 
-As previously stated, my hobbies primarily revolve around computers.  I enjoy
-running servers and networks as a past time in addition to making a living
-doing such.  Those of you with your past time as your primary occupation can
-truly appreciate how enjoyable such can be.  For those that aren't in this
-situation it tends to be difficult for them to see a separation of work and
-personal time and they can even get frustrated with those of us that are able
-to enjoy this arrangement.
+On January 9, 2014 we welcomed our fourth child, another boy.  David was again
+a home birth, with a long prodromal labor labor the previous 11 days to his
+birth.
+
+My hobbies primarily revolve around computers.  I enjoy running servers and
+networks as a past time in addition to making a living doing such.  Those of
+you with your past time as your primary occupation can truly appreciate how
+enjoyable such can be.  For those that aren't in this situation it tends to be
+difficult for them to see a separation of work and personal time and they can
+even get frustrated with those of us that are able to enjoy this arrangement.
 
 In addition to my primary hobbies I do enjoy spending time with my family and
 friends.  I enjoy good quality television programs and movies, predominately
