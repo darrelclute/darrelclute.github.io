@@ -30,6 +30,48 @@ Google were doing as experiments that would not last nor scale.  Ironically,
 working in the web hosting industry at the time I and others thought that what
 these companies were doing was normal, just in a newer more encompassing manner.
 
+The 2009 `Velocity Conference`_ effectively began exposing what these companies
+were doing.  The IT Operations team at Flickr, represented by `John Allspaw`_
+and `Paul Hammond`_, expounded on their operations.  At Flickr operations and
+development were not going off in their own paths, they were working together
+with the QA teams as well as the business to ensure that everyone was working
+toward a common goal.  Applying `Lean`_ and `Agile`_ techniques the team at
+Flickr was able to dramatically increase the number of deployments to 10 per
+day.  Separately `Jez Humble`_ and `Dave Farley`_ came to the same conclusions
+as the team at Flickr, and codified this in their book `Continuous Delivery`_.
+The processes and free flowing communication across the entire business set
+Flickr up for success.
+
+The `DevOps`_ movement is the organizational or cultural side of the puzzle, in
+many ways brining the IT industry back to its roots as a true business enabler.
+But this isn't what most people think of when they hear about `DevOps`_, they
+think about the tools.
+
+======================
+Infrastructure as Code
+======================
+
+The technical aspects and tools of `DevOps`_ are what most people think of when
+contemplating `DevOps`_.  While they are an important part of the `DevOps`_
+puzzle, many people prefer to refer to these as a separate movement,
+`Infrastructure as Code`_.  With `Infrastructure as Code`_, you move beyond
+using version control and other software development technologies for just your
+software development, and utilize these techniques for all of your
+infrastructure as well.  No longer are you going from machine to machine to
+apply updates and deploying code, you are now effectively deploying your entire
+environment from source code.  Tools such as `SaltStack`_, `Ansible`_, `Chef`_,
+`Puppet`_, `cfengine`_ are utilized for orchestration.
+
+With `cfengine`_ having been publicly in use since around 1993 the concepts of
+treating your infrastructure as code isn't exactly new.  What was new was that
+these technologies and techniques were being utilized across numerous companies
+encompassing many industries, instead of simply scientific, HPC, and IT focused
+companies.  The use of `Infrastructure as Code`_ and `DevOps`_ by non-IT
+businesses effectively told the enterprise and data processing computing models
+of IT operations that they got it wrong.  Both the tools and techniques of
+`Infrastructure as Code`_ and the cultural and organizational components of
+`DevOps`_ reinforce and move forward the `UNIX`_ computing model.
+
 
 ==========
 Postscript
