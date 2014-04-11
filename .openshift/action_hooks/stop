@@ -1,5 +1,8 @@
 #!/bin/bash
 
 httpd -f ${OPENSHIFT_DATA_DIR}/conf/httpd.conf -k stop
+if [ $? -ne 0 ] ; then
+  killall httpd
+fi
 
 exit 0
