@@ -99,18 +99,18 @@ BRKCDN-2303  --  DevOps in Programmable Network Environment                     
 
 
 
-.. _Cisco Live US:: http://www.ciscolive.com/us/
+.. _Cisco Live US: http://www.ciscolive.com/us/
 
-.. _Cisco Live Online:: https://www.ciscolive.com/online/
+.. _Cisco Live Online: https://www.ciscolive.com/online/
 
-.. _Cisco Live Social Networking::
+.. _Cisco Live Social Networking:
    http://www.ciscolive.com/us/attendees/social-networking/
 
-.. _DevNet:: https://developer.cisco.com/site/devnet/home/index.gsp
+.. _DevNet: https://developer.cisco.com/site/devnet/home/index.gsp
 
-.. _DevNet Zone::
+.. _DevNet Zone:
    https://developer.cisco.com/site/devnet/events/devnet-at-cisco-live/
 
-.. _Twitter:: https://twitter.com
+.. _Twitter: https://twitter.com
 
-.. _Google Plus:: https://plus.google.com
+.. _Google Plus: https://plus.google.com
