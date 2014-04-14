@@ -8,7 +8,7 @@ Network Management with Salt
 
 .. _Matt Oswalt: https://twitter.com/mierdin
 
-.. _Tyler Christensen: https://twitter.com/oss_stack
+.. _Tyler Christiansen: https://twitter.com/oss_stack
 
 .. _Kirk Byers: https://twitter.com/kirkbyers
 
