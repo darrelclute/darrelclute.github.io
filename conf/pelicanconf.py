@@ -37,6 +37,14 @@ SUMMARY_MAX_LENGTH = None
 ARTICLE_EXCLUDES = ('pages', 'drafts')
 THEME_STATIC_DIR = ''
 
+STATIC_PATHS = [
+    'static/resume.pdf',
+]
+
+EXTRA_PATH_METADATA = {
+    'static/resume.pdf': {'path': 'pdf/darrelclute3-resume.pdf'},
+}
+
 PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
     (2, '{base_name}/page{number}/', '{base_name}/page{number}/index.html'),
