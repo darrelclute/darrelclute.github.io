@@ -1,6 +1,6 @@
 from setuptools import setup
 
-requires = ['pelican>=3.3.0', 'Markdown', 'typogrify'] 
+requires = ['pelican>=3.3.0', 'Markdown', 'typogrify', 'beautifulsoup4'] 
 
 setup(name='DCNet Website',
       version='1.0',
