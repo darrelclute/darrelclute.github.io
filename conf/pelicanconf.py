@@ -5,6 +5,11 @@ import os
 import sys
 from datetime import date
 
+# Plugin settings, do not alter path without altering build script
+PLUGIN_PATH = 'OPENSHIFT_DATA_DIR/pelican-plugins'
+# Uncomment the following line to enable plugins, add or subtract as desired
+PLUGINS = ['multi_part', ] #'interlinks', 'summary', 'neighbors']
+
 # General Settings
 SITEURL = u'http://www.darrelclute.net'
 SITENAME = u'Darrel Clute'
