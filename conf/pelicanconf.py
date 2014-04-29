@@ -34,7 +34,7 @@ CATEGORY_SAVE_AS = u'category/{slug}/index.html'
 ARCHIVES_SAVE_AS = u'archives/index.html'
 CATEGORIES_SAVE_AS = u'category/index.html'
 SUMMARY_MAX_LENGTH = None
-ARTICLE_EXCLUDES = ('pages', 'drafts')
+ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
 THEME_STATIC_DIR = ''
 
 STATIC_PATHS = [
