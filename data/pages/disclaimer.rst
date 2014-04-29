@@ -36,6 +36,6 @@ Disclosure
 ==========
 
 All views expressed through the writings on this site are solely those of
-Author, and are in no way swayed be any third party.  If at any time Author
+Author, and are in no way swayed by any third party.  If at any time Author
 attends a sponsored event or receives anything from a third party in relation
 to a sponsored event, they will be listed below.

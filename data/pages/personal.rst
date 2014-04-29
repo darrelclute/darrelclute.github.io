@@ -30,8 +30,7 @@ Our family grew again on January 13, 2012, with the birth of Liam.  Another
 home birth, that was quite the arduous event as his labor was over 20 hours.
 
 On January 9, 2014 we welcomed our fourth child, another boy.  David was again
-a home birth, with a long prodromal labor labor the previous 11 days to his
-birth.
+a home birth, with a long prodromal labor the previous 11 days to his birth.
 
 My hobbies primarily revolve around computers.  I enjoy running servers and
 networks as a past time in addition to making a living doing such.  Those of
