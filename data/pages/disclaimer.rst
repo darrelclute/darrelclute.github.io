@@ -1,5 +1,6 @@
+=========================
 Disclaimer and Disclosure
-#########################
+=========================
 
 :url: disclaimer/
 :save_as: disclaimer/index.html
