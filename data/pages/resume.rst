@@ -6,6 +6,15 @@ Resume
 :save_as: resume/index.html
 
 
+IT Infrastructure Architect
+===========================
+
+IT professional with over 10 years of experience in multiple roles.  Excels in
+a dynamic environment with constant change.  Prefers automation to manual
+repetition, and being a partner to the business instead of a simple services
+provider.
+
+
 Work Experience
 ===============
 
@@ -31,6 +40,16 @@ Work Experience
 
     * Encourage the adoption of Infrastructure as Code and Agile Operations
       methods, procedures, and tools, across functional groups.
+
+    * Implement and maintain server infrastructure supporting network
+      operations, including:
+
+        * SaltStack for configuration management.
+
+        * Git for version control of configuration management data.
+
+    * Utilize configuration management for network supporting server
+      infrastructure to automate the deployment of proxy white listing.
 
 
 07/2010 |--| 01/2011 |---| Consumers Energy One Energy Plaza Drive, Jackson Michigan
