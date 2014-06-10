@@ -33,4 +33,4 @@ his Resume_.
 
 .. _LinkedIn: https://www.linkedin.com/in/darrelclute
 
-.. _Resume: http://www.darrelclute.net/pdf/darrelclute3-resume.pdf
+.. _Resume: http://www.darrelclute.net/resume/
