@@ -268,3 +268,7 @@ Creek Michigan 49017 269-968-2271
 517-629-9166
 
     General Education |---| High School Dipoloma
+
+
+.. |--| unicode:: U+2013
+.. |---| unicode:: U+2014
