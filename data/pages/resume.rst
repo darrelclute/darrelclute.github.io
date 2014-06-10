@@ -31,7 +31,7 @@ Work Experience
     - Evaluate wireless communications utilizing IEEE 802.15.4 (ZigBee)
       between AMI meters and HAN equipment such as:
 
-        - appliances
+        - Appliances
 
         - Home energy displays
 
