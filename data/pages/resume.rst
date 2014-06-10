@@ -4,7 +4,6 @@ Darrel Ray Clute, III
 
 :url: resume/
 :save_as: resume/index.html
-:status: hidden
 
 
 Work Experience
