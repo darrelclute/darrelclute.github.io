@@ -264,6 +264,9 @@ Work Experience
 
     06/2001 |--| 03/2002 |---| Network Assistant
 
+    * Provided assistance to the Network and System Administrators with various
+      tasks.
+
 
 Professional Certifications
 ===========================
