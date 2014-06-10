@@ -1,6 +1,6 @@
-=====================
-Darrel Ray Clute, III
-=====================
+======
+Resume
+======
 
 :url: resume/
 :save_as: resume/index.html
