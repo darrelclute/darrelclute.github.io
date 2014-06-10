@@ -5,7 +5,7 @@ Resume
 :url: resume/
 :save_as: resume/index.html
 
-*`Print resume`_ availabe for download*
+`Print resume availabe for download.`_:emphasis:
 
 
 IT Infrastructure Architect
@@ -309,4 +309,4 @@ Creek Michigan 49017 269-968-2271
 
 .. |---| unicode:: U+2014
 
-.. _Print resume: http://www.darrelclute.net/pdf/darrelclute3-resume.pdf
+.. _Print resume available for download.: http://www.darrelclute.net/pdf/darrelclute3-resume.pdf
