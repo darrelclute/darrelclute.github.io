@@ -5,7 +5,7 @@ Resume
 :url: resume/
 :save_as: resume/index.html
 
-`Print resume availabe for download`_:emphasis:
+`Print resume availabe for download`_
 
 
 IT Infrastructure Architect
