@@ -76,26 +76,26 @@ person with people I haven't seen in nearly a year.
 Tentative Schedule
 ==================
 
-==================================================================================================================================================================== ======= ======== =====================
-Session Name                                                                                                                                                         Date    Time     Location
-==================================================================================================================================================================== ======= ======== =====================
-TECACI-2009  --  Application Centric Infrastructure (ACI) - The Policy Driven Data Center                                                                            5/18/14 8:00 AM  Moscone West 2004
-BRKCDN-2968  --  Cisco DevNet: Overview of Cisco's new development community, sandbox and associated tools                                                           5/19/14 8:00 AM  Moscone South 305
-BRKCRS-3011  --  APIC-EM (Application Policy Infrastructure Controller - Enterprise Module) - SDN in the Enterprise                                                  5/19/14 10:00 AM Moscone West 2014
-Exam -- CCIE Data Center Written                                                                                                                                     5/19/14 1:00 PM  Exam Center
-GENKEY-2200  --  Cisco Live Welcome Keynote                                                                                                                          5/19/14 3:30 PM  Moscone North, Hall D
-BRKSDN-2777  --  Open Network Environment (ONE) Software Development Lifecycle (SDLC)                                                                                5/20/14 8:00 AM  Moscone North 113
-GENKEY-2300  --  Cisco Live Technology Keynote:  Infrastructure for The Agile Enterprise                                                                             5/20/14 10:00 AM Moscone North, Hall D
-BRKPCS-2048  --  Software-Defined Networking: People, Process, and Evolution                                                                                         5/20/14 12:30 PM Moscone South 309
-BRKDCT-2367  --  OpenStack Deployment in the Enterprise                                                                                                              5/20/14 3:00 PM  Moscone West 3011
-BRKSEC-3691  --  Deploying TrustSec Security Group Tags in the Data Center                                                                                           5/21/14 8:00 AM  Moscone West 3018
-GENKEY-2400  --  Cisco Live Partner Keynote:  The Internet of Everything Ecosystem– Bringing IT and OT Together with the Internet of Things                          5/21/14 10:00 AM Moscone North, Hall D
-BRKNMS-3132  --  Advanced NetFlow                                                                                                                                    5/21/14 1:30 PM  Moscone South 307
-BRKARC-3471  --  Cisco NX-OS Software Architecture                                                                                                                   5/22/14 8:00 AM  Moscone West 3001
-GENKEY-2500  --  Cisco Live Celebrity Keynote:  Reinventing Education—The One World School House                                                                     5/22/14 10:30 AM Moscone North, Hall D
-BRKDCT-3237  --  Versatile architecture using Nexus 7000 with a mix of F and M modules to deliver FEX, FabricPath, Multihop FCoE, MPLS and LISP all at the same time 5/22/14 12:30 PM Moscone West 3011
-BRKCDN-2303  --  DevOps in Programmable Network Environment                                                                                                          5/22/14 2:30 PM  Moscone West 2016
-==================================================================================================================================================================== ======= ======== =====================
+====================================================================================================================================================================== ======= ======== =====================
+Session Name                                                                                                                                                           Date    Time     Location
+====================================================================================================================================================================== ======= ======== =====================
+TECACI-2009  |--|  Application Centric Infrastructure (ACI) - The Policy Driven Data Center                                                                            5/18/14 8:00 AM  Moscone West 2004
+BRKCDN-2968  |--|  Cisco DevNet: Overview of Cisco's new development community, sandbox and associated tools                                                           5/19/14 8:00 AM  Moscone South 305
+BRKCRS-3011  |--|  APIC-EM (Application Policy Infrastructure Controller - Enterprise Module) - SDN in the Enterprise                                                  5/19/14 10:00 AM Moscone West 2014
+Exam |--| CCIE Data Center Written                                                                                                                                     5/19/14 1:00 PM  Exam Center
+GENKEY-2200  |--|  Cisco Live Welcome Keynote                                                                                                                          5/19/14 3:30 PM  Moscone North, Hall D
+BRKSDN-2777  |--|  Open Network Environment (ONE) Software Development Lifecycle (SDLC)                                                                                5/20/14 8:00 AM  Moscone North 113
+GENKEY-2300  |--|  Cisco Live Technology Keynote:  Infrastructure for The Agile Enterprise                                                                             5/20/14 10:00 AM Moscone North, Hall D
+BRKPCS-2048  |--|  Software-Defined Networking: People, Process, and Evolution                                                                                         5/20/14 12:30 PM Moscone South 309
+BRKDCT-2367  |--|  OpenStack Deployment in the Enterprise                                                                                                              5/20/14 3:00 PM  Moscone West 3011
+BRKSEC-3691  |--|  Deploying TrustSec Security Group Tags in the Data Center                                                                                           5/21/14 8:00 AM  Moscone West 3018
+GENKEY-2400  |--|  Cisco Live Partner Keynote:  The Internet of Everything Ecosystem– Bringing IT and OT Together with the Internet of Things                          5/21/14 10:00 AM Moscone North, Hall D
+BRKNMS-3132  |--|  Advanced NetFlow                                                                                                                                    5/21/14 1:30 PM  Moscone South 307
+BRKARC-3471  |--|  Cisco NX-OS Software Architecture                                                                                                                   5/22/14 8:00 AM  Moscone West 3001
+GENKEY-2500  |--|  Cisco Live Celebrity Keynote:  Reinventing Education—The One World School House                                                                     5/22/14 10:30 AM Moscone North, Hall D
+BRKDCT-3237  |--|  Versatile architecture using Nexus 7000 with a mix of F and M modules to deliver FEX, FabricPath, Multihop FCoE, MPLS and LISP all at the same time 5/22/14 12:30 PM Moscone West 3011
+BRKCDN-2303  |--|  DevOps in Programmable Network Environment                                                                                                          5/22/14 2:30 PM  Moscone West 2016
+====================================================================================================================================================================== ======= ======== =====================
 
 
 
@@ -114,3 +114,5 @@ BRKCDN-2303  --  DevOps in Programmable Network Environment                     
 .. _Twitter: https://twitter.com
 
 .. _Google Plus: https://plus.google.com
+
+.. |--| unicode:: U+2013
