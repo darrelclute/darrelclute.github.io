@@ -52,7 +52,7 @@ Work Experience
 
 02/2009 - 07/2010 --- Netarx, LLC (Acquired by Logicalis Group in July, 2011)
 
-    (Netarx acquired Analysts Internation VAR business unit in August 2009)
+    (Netarx acquired Analysts International VAR business unit in August 2009)
 
     08/2009 - 07/2010 --- Network Engineer
 
@@ -67,6 +67,8 @@ Work Experience
         - Some pre-sales engineering
 
         - Production of implementation plans and detailed design documents
+
+        - Execution of implementation plans
 
     - Perform assessments on customer infrastructure
 
@@ -117,7 +119,7 @@ Work Experience
         - Design, implement and maintain globally accessible web hosting
           network infrastructure.
 
-            - Monitor and rebalance outbound traffic flow over multiple
+            - Monitor and rebalanced outbound traffic flow over multiple
               carriers.
 
             - Manage IP allocations for use, and acquisitions through ARIN
