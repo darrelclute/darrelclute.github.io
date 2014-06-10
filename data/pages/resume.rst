@@ -2,8 +2,8 @@
 Darrel Ray Clute, III
 =====================
 
-:url: about/resume/
-:save_as: about/resume/index.html
+:url: resume/
+:save_as: resume/index.html
 :status: hidden
 
 
@@ -14,6 +14,24 @@ Work Experience
 760-476-2200
 
     03/2011 |--| Present |---| Senior Network Engineer
+
+    * Focus on data center networking supporting Satellite Service Provider
+      back office and operational support systems.
+
+    * Provide support and dissemination of knowledge to other engineers.
+
+    * Work with business owners on architecture, implementation and support of
+      their applications, with a focus on network services.
+
+    * Work with other data center infrastructure teams toward the completion of
+      projects our teams support.
+
+    * Provide knowledge transfer and augmentation to other infrastructure teams
+      where own knowledge or experience surpasses that of the functional groups
+      subject matter expertise.
+
+    * Encourage the adoption of Infrastructure as Code and Agile Operations
+      methods, procedures, and tools, across functional groups.
 
 
 07/2010 |--| 01/2011 |---| Consumers Energy One Energy Plaza Drive, Jackson Michigan
@@ -232,23 +250,17 @@ Work Experience
 Professional Certifications
 ===========================
 
-January 2, 2012 |--| Current  |---|  Red Hat Certified Engineer, RHCE
-
-January 2, 2012 |--| Current  |---|  Red Hat Certified System Administrator, RHCSA
-
-March 16, 2009 |--| March 16, 2012  |---|  Cisco Certified Network Associate, CCNA
-
-March 31, 2005 |--| Current  |---|  Novell Certified Linux Professional
-
-January 29, 2005 |--| January 29, 2010  |---|  Linux Professional Institute Certified Level 1, LPIC-1
-
-July 16, 2003 |--| July 16, 2006  |---|  Cisco Certified Network Professional, CCNP
-
-July 3, 2003 |--| July 16, 2006  |---|  Cisco Certified Design Professional, CCDP
-
-May 20, 2002 |--| July 16, 2006  |---|  Cisco Certified Design Associate, CCDA
-
-January 18, 2002 |--| July 16, 2006  |---|  Cisco Certified Network Associate, CCNA
+====================================== ======================================================
+January 2, 2012 |--| Current           Red Hat Certified Engineer, RHCE
+January 2, 2012 |--| Current           Red Hat Certified System Administrator, RHCSA
+March 16, 2009 |--| March 16, 2012     Cisco Certified Network Associate, CCNA
+March 31, 2005 |--| Current            Novell Certified Linux Professional
+January 29, 2005 |--| January 29, 2010 Linux Professional Institute Certified Level 1, LPIC-1
+July 16, 2003 |--| July 16, 2006       Cisco Certified Network Professional, CCNP
+July 3, 2003 |--| July 16, 2006        Cisco Certified Design Professional, CCDP
+May 20, 2002 |--| July 16, 2006        Cisco Certified Design Associate, CCDA
+January 18, 2002 |--| July 16, 2006    Cisco Certified Network Associate, CCNA
+====================================== ======================================================
 
 
 
