@@ -62,3 +62,19 @@ nature of the DevOps culture communication breakdowns will be a detriment
 regardless of whether you have silos or not, more so if you do.  What does not
 make sense to me, at least until you get to massive scale, is having divisions
 beyond the 3 overarching disciplines; Development, QA, Operations.
+
+"OK, so if there are still silos, what have you achieved?"  Well, for an
+organization embracing DevOps, just because there are still departments or
+divisions inside of IT doesn't mean that there are silos.  Departments exist
+for management hierarchy, but should not exist for each department to work
+toward different goals than that of the organization.  When each department
+works independently of the others, that is how a silo is formed.  When you have
+departments, but individuals across those departments function as a single
+team, you don't have silos in the traditional sense.
+
+Taking that further, say that an organization has decided that all of IT will
+be a single department, without traditional sub-groupings, do all of the
+engineers do exactly the same job and have exactly the same title?  Well, of
+course you could do this, but it doesn't necessarily make the most sense.  You
+will still have subject matter experts even after you start down the path to
+enabling DevOps, so why obfuscate out that distinction?
