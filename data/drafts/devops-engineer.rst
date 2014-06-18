@@ -84,12 +84,77 @@ enabling DevOps, so why obfuscate out that distinction?
 Even if you feel the need to give everyone a common title, make sure that you
 also give them a subtitle that denotes what their primary subject matter is, it
 makes it easier to know where to send people when they are having a particular
-problem.  Here is one that I am going to leave up to the readers, if you give
-everyone the same primary title, with differing subtitles, how do you handle
-those truly unique and hard to find engineers that can rightfully be called
-subject matter experts in more than one discipline?
+problem.  Here is one that I am going to leave up to you the reader, if you
+give everyone the same primary title, with differing subtitles, how do you
+handle those truly unique and hard to find engineers that can rightfully be
+called subject matter experts in more than one discipline?  Likewise how have
+you addressed this in traditional IT departments?
 
 
-====
+========
+Clarity?
+========
 
-Back to the individual I was speaking with
+The prior to sections definitely help provide clarity around some of the
+confusion that I see come up with regard to DevOps.  And it definitely will
+help frame deeper conversations that I have with others regarding my
+opinion on DevOps as a term in a job title.  But does that help provide clarity
+to the situation I opened with?
+
+Back to the individual I was speaking with, what struck me as even more
+peculiar came when I probed more about what they were looking for.  They were
+looking for an operationally focused position, but not a traditional operations
+engineer.  They are looking for an individual that is a developer first, with
+operational experience managing infrastructure.  I knew that this sounded
+familiar to something that I had heard of before, but couldn't place it at the
+time.  I also knew that it sounded like something that I had heard or read
+about in relation to DevOps, but not directly.
+
+It was when I read Matt Simmons article on his take aways from the SREConf that
+he recently attended.  Reading his article I realized that the individual I was
+speaking with was looking for a non-traditional operations engineer,
+specifically a Site Reliability Engineer.  What sets Site Reliability
+Engineering apart from traditional infrastructure engineering is in how the
+role is typically filled, in addition to typically only being found at
+extremely large web properties.  My last statement is not an indication that
+you only need this type of operational mindset when you get to a certain scale,
+simply that they are more likely to occur at those types of scale.
+
+SRE from a personnel perspective is typically filled with an individual with a
+BS or higher in Computer Science, has extensive experience with development as
+well as infrastructure operations.  This is not to say that traditional
+infrastructure operations staff cannot fill a role in SRE, it is just far less
+common.  The reason for the desire for a full development background is that
+they will not only operate the environment, but they will also develop the
+necessary tooling, monitoring, and scaling infrastructure to support the
+application in ways that a pure infrastructure engineer cannot, typically by
+writing large scale distributed applications.
+
+SRE goes beyond typical Infrastructure as Code, where you treat the
+infrastructure configuration as code, and typically utilize a configuration
+management tool to provide a declarative definition of your needs instead of
+imperatively defining it.  From my impression of SRE teams, they will do this
+as well, but will also build applications which manage the applications, and
+which the applications that are being consumed are dependent on the
+applications that the SRE team has developed.  It is likely that SRE teams were
+the designer and original developers of the early PaaS implementations that so
+many today consume.
+
+==========
+Conclusion
+==========
+
+There is a great deal of ambiguity and confusion around the still emerging
+trends around DevOps, SDN, and other related movements and disciplines.  In
+many respects the ambiguity is intentional so that organizations can choose the
+best path for themselves to be able to embrace the movement, and work toward
+having high performing IT teams.  Other times the ambiguity comes from how
+early everything is in the life cycle that not everything is well understood,
+such as the case with SDN.
+
+Was I able to help out the individual come to a better understanding of what
+they are looking for to fulfill their operational position?  As of the time of
+this writing I cannot answer that question, as we haven't delved that far down
+into the conversation yet.  I felt it was more important to get this out there
+to use as a jumping off point, and hopefully help others as well at the same
+time.
