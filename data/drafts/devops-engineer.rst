@@ -8,7 +8,9 @@ Recently talking with someone about their hiring woes and they mentioned that
 they were having an extremely hard time finding a "DevOps Engineer".  This
 struck a chord with me as I don't typically consider this to be a job title,
 and I know from several conversations on Twitter that I am not alone in that
-assumption.  Why the conflicted understandings between the two of us?
+assumption.  In fact this is something that I have given a great deal of
+thought to and am finally given it enough thought to codify it here.  Why the
+conflicted understandings between the two of us?
 
 
 ===============
@@ -77,4 +79,17 @@ be a single department, without traditional sub-groupings, do all of the
 engineers do exactly the same job and have exactly the same title?  Well, of
 course you could do this, but it doesn't necessarily make the most sense.  You
 will still have subject matter experts even after you start down the path to
-enabling DevOps, so why obfuscate out that distinction?
+enabling DevOps, so why obfuscate out that distinction?  
+
+Even if you feel the need to give everyone a common title, make sure that you
+also give them a subtitle that denotes what their primary subject matter is, it
+makes it easier to know where to send people when they are having a particular
+problem.  Here is one that I am going to leave up to the readers, if you give
+everyone the same primary title, with differing subtitles, how do you handle
+those truly unique and hard to find engineers that can rightfully be called
+subject matter experts in more than one discipline?
+
+
+====
+
+Back to the individual I was speaking with
