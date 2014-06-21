@@ -2,7 +2,7 @@
 ##################
 
 :slug: devops-engineer
-:date: 
+:date: 2014-06-20 21:00
 
 Recently talking with someone about their hiring woes and they mentioned that
 they were having an extremely hard time finding a "DevOps Engineer".  This
@@ -110,10 +110,10 @@ familiar to something that I had heard of before, but couldn't place it at the
 time.  I also knew that it sounded like something that I had heard or read
 about in relation to DevOps, but not directly.
 
-It was when I read Matt Simmons article on his take aways from the SREConf that
-he recently attended.  Reading his article I realized that the individual I was
-speaking with was looking for a non-traditional operations engineer,
-specifically a Site Reliability Engineer.  What sets Site Reliability
+It was when I read `Matt Simmons article`_ on his take aways from the
+`SREConf`_ that he recently attended.  Reading his article I realized that the
+individual I was speaking with was looking for a non-traditional operations
+engineer, specifically a Site Reliability Engineer.  What sets Site Reliability
 Engineering apart from traditional infrastructure engineering is in how the
 role is typically filled, in addition to typically only being found at
 extremely large web properties.  My last statement is not an indication that
@@ -158,3 +158,20 @@ this writing I cannot answer that question, as we haven't delved that far down
 into the conversation yet.  I felt it was more important to get this out there
 to use as a jumping off point, and hopefully help others as well at the same
 time.
+
+Want to explore this in more depth with me?  Feel free to get in touch with me
+below in the comments, on `Twitter`_, or `Google+`_.  I think that conversations like
+these need to be had across the industry, and not just on the server and
+application side as has been the majority of focus to date, networking needs to
+be there as well.
+
+
+.. _Matt Simmons article: 
+   http://www.standalone-sysadmin.com/blog/2014/06/the-difference-between-site-reliability-engineering-system-administration-and-devops/
+
+.. _SREConf:
+   https://www.usenix.org/conference/srecon14/program
+
+.. _Twitter: https://twitter.com/darrelclute
+
+.. _Google+: https://plus.google.com/+DarrelClute
