@@ -95,7 +95,7 @@ you addressed this in traditional IT departments?
 Clarity?
 ========
 
-The prior to sections definitely help provide clarity around some of the
+The prior two sections definitely help provide clarity around some of the
 confusion that I see come up with regard to DevOps.  And it definitely will
 help frame deeper conversations that I have with others regarding my
 opinion on DevOps as a term in a job title.  But does that help provide clarity
