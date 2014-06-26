@@ -1,4 +1,16 @@
+Interesting Reads - June 26 2014
+################################
+:date: 2014-06-26 19:00
+:slug: interesting-reads-2014-06-26
 
+Interesting Reads is a sporadically produced series in which a short review of
+interesting article(s) or even mini book reviews are presented to readers.  A
+short synopsis or comment will be provided to introduce or convey an opinion on
+the piece.  Inspired by `Greg Ferro`_ and `Chris Whal`_.
+
+.. _Greg Ferro:  http://etherealmind.com/tag/bookmarks/
+
+.. _Chris Whal:  http://wahlnetwork.com/tag/tech-blast/
 
 .. _DevOps and ITIL:
    http://changeandrelease.com/2014/04/05/devops-and-itil-continuous-delivery-doesnt-stop-at-software/
@@ -25,3 +37,9 @@
 
 .. _Ivan on New Technologies:
    http://blog.ipspace.net/2014/06/30-years-of-yammering.html
+
+.. _Python Sets:
+   http://unroutable.blogspot.com/2014/06/python-sets-handy-for-network-data.html
+
+.. _Network Automation v SDN:
+   http://keepingitclassless.net/2014/06/network-automation-or-sdn/
