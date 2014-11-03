@@ -11,7 +11,7 @@ PLUGIN_PATH = 'OPENSHIFT_DATA_DIR/pelican-plugins'
 PLUGINS = ['multi_part', 'interlinks', 'summary', 'neighbors']
 
 # General Settings
-SITEURL = u'http://www.darrelclute.net'
+SITEURL = u'https://www.darrelclute.net'
 SITENAME = u'Darrel Clute'
 FEEDURL = SITEURL
 AUTHOR = u'Darrel Clute'
