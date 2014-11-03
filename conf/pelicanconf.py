@@ -6,7 +6,7 @@ import sys
 from datetime import date
 
 # Plugin settings, do not alter path without altering build script
-PLUGIN_PATH = 'OPENSHIFT_DATA_DIR/pelican-plugins'
+PLUGIN_PATHS = ['OPENSHIFT_DATA_DIR/pelican-plugins']
 # Uncomment the following line to enable plugins, add or subtract as desired
 PLUGINS = ['series', 'interlinks', 'summary', 'neighbors']
 
@@ -26,14 +26,14 @@ ARTICLE_URL = u'{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = u'{date:%Y}/{date:%m}/{slug}/index.html'
 MONTH_ARCHIVE_SAVE_AS = u'{date:%Y}/{date:%m}/index.html'
 YEAR_ARCHIVE_SAVE_AS = u'{date:%Y}/index.html'
-TAG_URL = None
-TAG_SAVE_AS = None
-TAGS_URL = None
-TAGS_SAVE_AS = None
-AUTHOR_URL = None
-AUTHOR_SAVE_AS = None
-AUTHORS_URL = None
-AUTHORS_SAVE_AS = None
+TAG_URL = ''
+TAG_SAVE_AS = ''
+TAGS_URL = ''
+TAGS_SAVE_AS = ''
+AUTHOR_URL = ''
+AUTHOR_SAVE_AS = ''
+AUTHORS_URL = ''
+AUTHORS_SAVE_AS = ''
 CATEGORY_URL = u'category/{slug}/'
 CATEGORY_SAVE_AS = u'category/{slug}/index.html'
 ARCHIVES_SAVE_AS = u'archives/index.html'
