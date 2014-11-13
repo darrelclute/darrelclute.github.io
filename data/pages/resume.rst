@@ -11,10 +11,10 @@ Resume
 IT Infrastructure Architect
 ===========================
 
-IT professional with over 10 years of experience in multiple roles.  Excels in
-a dynamic environment with constant change.  Prefers automation to manual
-repetition, and being a partner to the business instead of a simple services
-provider.
+IT professional with over 10 years of experience in multiple roles, typically
+serving in a cross functional capacity.  Excels in a dynamic environment with
+constant change.  Prefers automation to manual repetition, and being a partner
+to the business instead of a simple services provider.
 
 
 Work Experience
