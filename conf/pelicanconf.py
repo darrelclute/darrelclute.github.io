@@ -6,7 +6,7 @@ import sys
 from datetime import date
 
 # Plugin settings, do not alter path without altering build script
-PLUGIN_PATHS = ['OPENSHIFT_DATA_DIR/pelican-plugins']
+PLUGIN_PATHS = ['~/repos/pelican-plugins']
 # Uncomment the following line to enable plugins, add or subtract as desired
 PLUGINS = ['series', 'interlinks', 'summary', 'neighbors']
 
@@ -43,11 +43,11 @@ ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
 THEME_STATIC_DIR = ''
 
 STATIC_PATHS = [
-    'static/resume.pdf',
+    'static/CNAME',
 ]
 
 EXTRA_PATH_METADATA = {
-    'static/resume.pdf': {'path': 'pdf/darrelclute3-resume.pdf'},
+    'static/CNAME': {'path': 'CNAME'},
 }
 
 PAGINATION_PATTERNS = (
