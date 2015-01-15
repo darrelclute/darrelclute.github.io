@@ -3,7 +3,7 @@ PELICAN?=pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
-THEMDIR=$(CURDIR)../dcnet-theme
+THEMEDIR=$(HOME)/repos/dcnet-theme
 DCNETINPUTDIR=$(BASEDIR)/data
 GHPINPUTDIR=$(BASEDIR)/ghp
 DCNETOUTPUTDIR=$(BASEDIR)/dcnetoutput
@@ -29,10 +29,10 @@ help:
 	@echo '                                                                       '
 
 dcnet:
-	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) $(PELICANOPTS)
 
 ghp:
-	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -t $(THEMEDIR) $(PELICANOPTS)
 	ghp-import -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
 
 clean:
