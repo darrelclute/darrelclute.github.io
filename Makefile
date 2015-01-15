@@ -33,10 +33,11 @@ dcnet:
 ghp:
 	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) $(PELICANOPTS)
 	ghp-import -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
-	rm -Rf $(GHPOUTPUTDIR)
+	clean
 
 clean:
 	[ ! -d $(DCNETOUTPUTDIR) ] || rm -rf $(DCNETOUTPUTDIR)
 	[ ! -d $(GHPOUTPUTDIR) ] || rm -rf $(GHPOUTPUTDIR)
+	[ ! -d $(BASEDIR)/conf/cache ] || rm -rf $(BASEDIR)/conf/cache
 
 .PHONY: dcnet dcnet-regen ghp ghp-regen help clean
