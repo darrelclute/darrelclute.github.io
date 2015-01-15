@@ -3,12 +3,13 @@ PELICAN?=pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
+THEMDIR=$(CURDIR)../dcnet-theme
 DCNETINPUTDIR=$(BASEDIR)/data
 GHPINPUTDIR=$(BASEDIR)/ghp
 DCNETOUTPUTDIR=$(BASEDIR)/dcnetoutput
 GHPOUTPUTDIR=$(BASEDIR)/ghpoutput
 DCNETCONFFILE=$(BASEDIR)/conf/dcnetconf.py
-GHPCONFFILE=$(BASEDIR)/ghpconf.py
+GHPCONFFILE=$(BASEDIR)/conf/ghpconf.py
 GITHUB_PAGES_BRANCH=master
 
 DEBUG ?= 0
@@ -33,7 +34,6 @@ dcnet:
 ghp:
 	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) $(PELICANOPTS)
 	ghp-import -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
-	clean
 
 clean:
 	[ ! -d $(DCNETOUTPUTDIR) ] || rm -rf $(DCNETOUTPUTDIR)
