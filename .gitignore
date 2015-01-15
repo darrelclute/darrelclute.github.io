@@ -2,3 +2,4 @@
 *.pyo
 dcnetoutput/*
 ghpoutput/*
+conf/cache/*
