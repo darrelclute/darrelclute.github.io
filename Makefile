@@ -39,5 +39,6 @@ clean:
 	[ ! -d $(DCNETOUTPUTDIR) ] || rm -rf $(DCNETOUTPUTDIR)
 	[ ! -d $(GHPOUTPUTDIR) ] || rm -rf $(GHPOUTPUTDIR)
 	[ ! -d $(BASEDIR)/conf/cache ] || rm -rf $(BASEDIR)/conf/cache
+	rm -rf $(BASEDIR)/conf/*.pyc
 
 .PHONY: dcnet dcnet-regen ghp ghp-regen help clean
