@@ -42,14 +42,6 @@ SUMMARY_MAX_LENGTH = None
 ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
 THEME_STATIC_DIR = ''
 
-STATIC_PATHS = [
-    'static/CNAME',
-]
-
-EXTRA_PATH_METADATA = {
-    'static/CNAME': {'path': 'CNAME'},
-}
-
 PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
     (2, '{base_name}/page{number}/', '{base_name}/page{number}/index.html'),
