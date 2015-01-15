@@ -2,7 +2,7 @@
 About Darrel Clute
 ==================
 
-:url: /
+:url: 
 :save_as: index.html
 
 Darrel Clute is an IT Infrastructure Architect.  Throughout his career he has
