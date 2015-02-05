@@ -26,19 +26,53 @@ Work Experience
     03/2011 |--| Present |---| Senior Network Engineer
 
     * Focus on data center networking supporting Satellite Service Provider
-      back office and operational support systems.
+      back office and operational support systems, including:
+
+      * Cisco Nexus 7000, 5000, 2000, 1000V.
+
+      * Cisco Catalyst 2960, 3750.
+
+      * Cisco ASA.
+
+      * Cisco ACE.
+
+      * Cisco ACS.
+
+      * Juniper SA VPN Appliances.
+
+      * Juniper MX Routers.
+
+      * OSPF and MPLS internal network.
+
+      * BGP Peering with providers and at internal MPLS network CE-PE boundary.
 
     * Provide support and dissemination of knowledge to other engineers.
 
     * Work with business owners on architecture, implementation and support of
       their applications, with a focus on network services.
 
-    * Work with other data center infrastructure teams toward the completion of
-      projects our teams support.
+    * Work with other data center infrastructure groups toward the completion of
+      projects our groups support.
 
-    * Provide knowledge transfer and augmentation to other infrastructure teams
+    * Provide knowledge transfer and augmentation to other infrastructure groups
       where own knowledge or experience surpasses that of the functional groups
       subject matter expertise.
+
+      * Assist in the setup and maintenance of Red Hat Satellite.
+
+      * Provide training on the use of Git, along with proposing workflows to
+        encourage collaboration.
+
+      * Provide training and escalation on scripting and programming with
+        Python.
+      
+      * Evaluation of Splunk and ELK for log aggregation, building network
+        specific queries and assisting in building queries to correlate
+        network, systems, and application data.
+
+      * Setup CentOS 7 VM templates for use in a vSphere environment, using
+        cloud-init to customize the deployed virtual machines using the same
+        data structures as when deploying in the future to OpenStack or AWS.
 
     * Encourage the adoption of Infrastructure as Code and Agile Operations
       methods, procedures, and tools, across functional groups.
@@ -46,9 +80,15 @@ Work Experience
     * Implement and maintain server infrastructure supporting network
       operations, including:
 
+        * Red Hat Enterprise Linux 5 and 6 for server OS.
+
         * SaltStack for configuration management.
 
         * Git for version control of configuration management data.
+
+        * Investigate use of SaltStack and ProxyMinion functionality to control
+          configuration of network devices through same interface as server
+          infrastructure.
 
     * Utilize configuration management for network supporting server
       infrastructure to automate the deployment of proxy white listing.
