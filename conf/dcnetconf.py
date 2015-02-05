@@ -66,7 +66,7 @@ RELATIVE_URLS = False
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 HIDE_CATEGORIES_FROM_MENU = False
-DEFAULT_METADATA = (('location', 'Elizabeth CO'),)
+DEFAULT_METADATA = (('location', 'Calhan CO'),)
 USER_LOGO_URL = u'https://www.gravatar.com/avatar/2c83f7fbc77af26448eb5da73997515c.png'
 
 DELETE_OUTPUT_DIRECTORY = False
