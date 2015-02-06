@@ -11,7 +11,7 @@ PLUGIN_PATHS = ['~/repos/pelican-plugins']
 PLUGINS = ['series', 'interlinks', 'summary', 'neighbors']
 
 # General Settings
-SITEURL = u'https://www.darrelclute.net'
+SITEURL = u'//www.darrelclute.net'
 SITENAME = u'Darrel Clute'
 FEEDURL = SITEURL
 AUTHOR = u'Darrel Clute'
