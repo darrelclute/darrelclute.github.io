@@ -20,10 +20,10 @@ to the business instead of a simple services provider.
 Work Experience
 ===============
 
-03/2011 |--| Present |---| ViaSat Inc. El Camino Real, Carlsbad California 92009
+03/2011 |--| 02/2015 |---| ViaSat Inc. El Camino Real, Carlsbad California 92009
 760-476-2200
 
-    03/2011 |--| Present |---| Senior Network Engineer
+    03/2011 |--| 02/2015 |---| Senior Network Engineer
 
     * Focus on data center networking supporting Satellite Service Provider
       back office and operational support systems, including:
