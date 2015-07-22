@@ -35,7 +35,7 @@ help:
 dcnet:	darrel-resume
 	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) $(PELICANOPTS)
 
-prod:
+prod:   darrel-resume
 	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETPRODDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) $(PELICANOPTS)
 
 ghp:
