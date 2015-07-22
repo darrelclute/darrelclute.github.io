@@ -33,13 +33,13 @@ help:
 	@echo '                                                                       '
 
 dcnet:	darrel-resume
-	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) $(PELICANOPTS)
+	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
 
 prod:   darrel-resume
-	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETPRODDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) $(PELICANOPTS)
+	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETPRODDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
 
 ghp:
-	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -t $(THEMEDIR) $(PELICANOPTS)
+	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
 	ghp-import -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
 
 darrel-resume:
