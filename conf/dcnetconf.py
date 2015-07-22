@@ -47,6 +47,18 @@ PAGINATION_PATTERNS = (
     (2, '{base_name}/page{number}/', '{base_name}/page{number}/index.html'),
 )
 
+STATIC_PATHS = [
+    'static/resume.pdf',
+    'static/pgp-key.txt',
+    'pgp-transition-statement.txt',
+]
+
+EXTRA_PATH_METADATA = {
+    'static/resume.pdf': {'path': 'pdf/darrelclute3-resume.pdf'},
+    'static/pgp-key.txt': {'path': 'pgp-key.txt'},
+    'pgp-transition-statement.txt': {'path': 'pgp-transition-statement.txt'},
+}
+
 # Feed Settings
 FEED_ALL_ATOM = u'feeds/index.xml'
 CATEGORY_FEED_ATOM = u'feeds/%s/index.xml'
