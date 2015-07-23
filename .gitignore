@@ -3,3 +3,4 @@
 dcnetoutput/*
 ghpoutput/*
 conf/cache/*
+*.swp
