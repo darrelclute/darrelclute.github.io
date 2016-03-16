@@ -52,6 +52,7 @@ STATIC_PATHS = [
     'static/pgp-key.txt',
     'static/pgp-transition-statement.txt',
     'static/robots.txt',
+    'static/keybase.txt',
 ]
 
 EXTRA_PATH_METADATA = {
@@ -59,6 +60,7 @@ EXTRA_PATH_METADATA = {
     'static/pgp-key.txt': {'path': 'pgp-key.txt'},
     'static/pgp-transition-statement.txt': {'path': 'pgp-transition-statement.txt'},
     'static/robots.txt': {'path': 'robots.txt'},
+    'static/keybase.txt': {'path': 'keybase.txt'},
 }
 
 # Feed Settings

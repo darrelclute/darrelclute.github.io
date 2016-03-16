@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/darrelclute
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.darrelclute.net
+  * I am darrelclute (https://keybase.io/darrelclute) on keybase.
+  * I have a public key with fingerprint 58A5 4A51 58F1 C5DA C51E  A537 5481
+  * 6ED6 261F CA30
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.25"
+        },
+        "key": {
+            "eldest_kid":
+"01017d49e91f205194e0e5b8f79ea8d2d4c1e50cdfab24de0ba1ba839cbc319f36780a",
+            "fingerprint": "58a54a5158f1c5dac51ea53754816ed6261fca30",
+            "host": "keybase.io",
+            "key_id": "54816ed6261fca30",
+            "kid":
+"01017d49e91f205194e0e5b8f79ea8d2d4c1e50cdfab24de0ba1ba839cbc319f36780a",
+            "uid": "3049621e7e3099acbd9e79cdf4e50619",
+            "username": "darrelclute"
+        },
+        "service": {
+            "hostname": "www.darrelclute.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458162006,
+    "expire_in": 157680000,
+    "prev":
+"ea92c1d7e315759497b851f4c468a743e9d88876e0d6ea7fb3f6137c56de4480",
+    "seqno": 38,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkm2IDVEYx++1iJXwQcS2bbMUud3mzMyZl0VJ1tvF8mU3Ld3OzHnmGq6Za2b2
+XrdFVmx5Deu1jfKyH7ibJQm1ofUSeUmspMRS6C7ylsXWypltFeWj8+nU83v+5//8
+n7NzaEGoMDyv62eisnr3gfDtvB6qzN+qrOV0h2a5slrOSFpg+8HNJiuBK+NWQFYn
+HkQtp8R2KESXeyV9TIRLg+tZjs0oPqpGBcytjQR80A1JCp4fX2HRoIp4pFBJAw2Z
+Ao+RJgEPWFdNRQOiUoFKBgLMG9QkuiBR4HWCdKKKmqEbItJMUVZUnrAHTctOgJty
+rcAih1WCJYIRVk1kYEoMjIBgUcGSimSgsiAj0yAizxqXOZ7/1zBcr9N4r71/8P/Z
+d02vnMhLmiwgUEDkNY0YOtVA0Vi3xERkpAWgB25f8JS4LiSNZI0PQa6skLYMCLIN
+humDMplM9A8wakOwl5Tr+I7hJBmwzPdTXlkg4GdTvR2gx/u04rplH6Ms0j9XiRhq
++FagjiTMghF4Xo5wsDpluRC3AgIrssqzEzwEaaYJRBMMRNlcrIY1SVN0FSNTMiRZ
+JYokgkZVVVVk4KkMRDF10ZSRqBhYpiBJahC4B6tshysTVWaUJJimZyVs4te4bPjN
+4aL+oXBhaOCAfsFnDRUOHv77B1vcoFBuSePrem9EZq+Juzs3xEpixz9kv7dFGqoG
+7l/0sn1uhRA6eq2nY9vwotmjY9tLm3fUz+vsficPaF1c/n7qoK8l5eebvhali4dF
+7s25P2vXxMONkz5mcl+mzCh+7D5s67g78XHPqFO52KGL7d+z60byt9sS3aE7+U37
+KPdMzK2fLF1t6RrRqldU9zwpvTLqRd3GE+PN5j0zOj+3vzkSPn8Ddl6f31qwbtK5
+mpvbhkwfuyYzbevi8JZPLfy0s/mn6SFwri79vOtK87hH5qLaxNIxpzuO/Kgvf0AK
+zjQc8KuOHTp1of/MivpI98HSi82Ynsxf6vn24G3x5FcNC9oXNl26HMvMXzph1y8=
+=+YV3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/darrelclute
+
+==================================================================
