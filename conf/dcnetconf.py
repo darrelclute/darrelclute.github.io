@@ -16,7 +16,7 @@ SITENAME = u'Darrel Clute'
 FEEDURL = SITEURL
 AUTHOR = u'Darrel Clute'
 TAGLINE = u'Ramblings from yet another IT Professional'
-TIMEZONE = u'America/Denver'
+TIMEZONE = u'America/Detroit'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE_FORMAT = u'%A, %B %d, %Y'
 COPYDATE = 2005
@@ -82,7 +82,7 @@ RELATIVE_URLS = False
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 HIDE_CATEGORIES_FROM_MENU = False
-DEFAULT_METADATA = (('location', 'Calhan CO'),)
+DEFAULT_METADATA = (('location', 'Homer MI'),)
 USER_LOGO_URL = u'https://www.gravatar.com/avatar/2c83f7fbc77af26448eb5da73997515c.png'
 
 DELETE_OUTPUT_DIRECTORY = False

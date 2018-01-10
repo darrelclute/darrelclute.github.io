@@ -16,7 +16,7 @@ SITENAME = u'Darrel Clute'
 FEEDURL = None
 AUTHOR = u'Darrel Clute'
 TAGLINE = u''
-TIMEZONE = u'America/Denver'
+TIMEZONE = u'America/Detroit'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE_FORMAT = u'%A, %B %d, %Y'
 COPYDATE = 2005
@@ -61,7 +61,7 @@ RELATIVE_URLS = False
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 HIDE_CATEGORIES_FROM_MENU = False
-DEFAULT_METADATA = (('location', 'Calhan CO'),)
+DEFAULT_METADATA = (('location', 'Homer MI'),)
 USER_LOGO_URL = u'https://www.gravatar.com/avatar/2c83f7fbc77af26448eb5da73997515c.png'
 
 DELETE_OUTPUT_DIRECTORY = False
