@@ -37,6 +37,7 @@ dcnet:	darrel-resume
 
 prod:   darrel-resume
 	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETPRODDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
+	chcon -R -u system_u -r object_r -t httpd_sys_content_t $(DCNETPRODDIR)
 
 ghp:
 	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
