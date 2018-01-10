@@ -6,7 +6,7 @@ import sys
 from datetime import date
 
 # Plugin settings, do not alter path without altering build script
-PLUGIN_PATHS = ['../..//pelican-plugins']
+PLUGIN_PATHS = ['../../pelican-plugins']
 # Uncomment the following line to enable plugins, add or subtract as desired
 PLUGINS = ['series', 'interlinks', 'summary', 'neighbors']
 
