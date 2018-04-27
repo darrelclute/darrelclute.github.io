@@ -86,7 +86,5 @@ DEFAULT_METADATA = (('location', 'Homer MI'),)
 USER_LOGO_URL = u'https://www.gravatar.com/avatar/2c83f7fbc77af26448eb5da73997515c.png'
 
 DELETE_OUTPUT_DIRECTORY = False
-DISQUS_SITENAME = "darrelclute"
-GOOGLE_ANALYTICS = "UA-5882709-1"
 
 AUTHOR_SUMMARY = "Darrel is an IT Infrastructure Architect focusing on Network and UNIX Systems Engineering.  The majority of Darrel's career has focused on Cisco for networking and numerous Linux distributions for systems, but has varied expertise outside of these technologies."
