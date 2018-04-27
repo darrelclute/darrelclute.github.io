@@ -11,6 +11,8 @@ is included inline below, and can be downloaded for verification from
 `https://www.darrelclute.net/pgp-transition-statement.txt
 <https://www.darrelclute.net/pgp-transition-statement.txt>`_.
 
+.. PELICAN_END_SUMMARY
+
 ::
 
     -----BEGIN PGP SIGNED MESSAGE-----
