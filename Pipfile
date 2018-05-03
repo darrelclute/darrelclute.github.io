@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+ipaddress = "*"
+requests = "*"
+pygments = "*"
+pelican = "*"
+markdown = "*"
+typogrify = "*"
+"beautifulsoup4" = "*"
+ghp-import = "*"
+
+[dev-packages]
