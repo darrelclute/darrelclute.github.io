@@ -42,6 +42,14 @@ SUMMARY_MAX_LENGTH = None
 ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
 THEME_STATIC_DIR = ''
 
+STATIC_PATHS = [
+    'static/favicon.ico',
+]
+
+EXTRA_PATH_METADATA = {
+    'static/favicon.ico': {'path': 'favicon.ico'},
+}
+
 # Feed Settings
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
