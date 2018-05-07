@@ -13,7 +13,7 @@ is included inline below, and can be downloaded for verification from
 
 .. PELICAN_END_SUMMARY
 
-::
+.. code-block:: text
 
     -----BEGIN PGP SIGNED MESSAGE-----
     Hash: SHA512

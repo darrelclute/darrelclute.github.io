@@ -81,7 +81,9 @@ are probably wondering what my actual workflow is.
 Quite simply I have a directory on any number of computers that I can simply
 pull the latest repository contents to and go.  I have a basic structure of how
 the content is laid out so that I can keep track of items as well, which I have
-outlined here::
+outlined here.
+
+.. code-block:: text
 
     repository|
               |_____drafts
