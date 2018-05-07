@@ -13,6 +13,10 @@ PLUGINS = [
     'interlinks',
     'summary',
     'neighbors',
+    'gravatar',
+    'readtime',
+    'sitemap',
+    'footer_insert',
 ]
 
 # General Settings
@@ -43,7 +47,7 @@ CATEGORY_URL = u'category/{slug}/'
 CATEGORY_SAVE_AS = u'category/{slug}/index.html'
 ARCHIVES_SAVE_AS = u'archives/index.html'
 CATEGORIES_SAVE_AS = u'category/index.html'
-SUMMARY_MAX_LENGTH = None
+SUMMARY_USE_FIRST_PARAGRAPH = True
 ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
 THEME = '../dcnet-green-penguin'
 THEME_STATIC_DIR = ''
@@ -69,6 +73,10 @@ EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
     'static/keybase.txt': {'path': 'keybase.txt'},
     'static/favicon.ico': {'path': 'favicon.ico'},
+}
+
+SITEMAP = {
+    'format': 'xml',
 }
 
 # Feed Settings
