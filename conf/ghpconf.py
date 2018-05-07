@@ -40,6 +40,7 @@ ARCHIVES_SAVE_AS = None
 CATEGORIES_SAVE_AS = None
 SUMMARY_MAX_LENGTH = None
 ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
+THEME = '../dcnet-green-penguin'
 THEME_STATIC_DIR = ''
 
 STATIC_PATHS = [

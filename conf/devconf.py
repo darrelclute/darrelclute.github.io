@@ -49,6 +49,7 @@ ARCHIVES_SAVE_AS = u'archives/index.html'
 CATEGORIES_SAVE_AS = u'category/index.html'
 SUMMARY_USE_FIRST_PARAGRAPH = True
 ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
+THEME = '../dcnet-green-penguin'
 THEME_STATIC_DIR = ''
 
 PAGINATION_PATTERNS = (

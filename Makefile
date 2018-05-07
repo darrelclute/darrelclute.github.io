@@ -3,7 +3,6 @@ PELICAN?=pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
-THEMEDIR=$(HOME)/repos/dcnet-theme
 DCNETINPUTDIR=$(BASEDIR)/data
 GHPINPUTDIR=$(BASEDIR)/ghp
 DCNETOUTPUTDIR=$(BASEDIR)/dcnetoutput
@@ -33,14 +32,14 @@ help:
 	@echo '                                                                       '
 
 dcnet:	darrel-resume
-	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
+	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) -v $(PELICANOPTS)
 
 prod:   darrel-resume
-	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETPRODDIR) -s $(DCNETCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
+	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETPRODDIR) -s $(DCNETCONFFILE) -v $(PELICANOPTS)
 	chcon -R -u system_u -r object_r -t httpd_sys_content_t $(DCNETPRODDIR)
 
 ghp:
-	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -t $(THEMEDIR) -v $(PELICANOPTS)
+	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -v $(PELICANOPTS)
 	ghp-import -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
 
 darrel-resume:
