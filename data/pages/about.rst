@@ -9,11 +9,12 @@ Professional
 ============
 
 Darrel Clute is an IT Infrastructure Architect, with a focus on bridging
-business needs together with data center usage.  Predominent focus on Network,
-Security, Virtulization, and UNIX Systems Engineering, trying to bridge the
-gaps between the disciplines.  Proponent of automation and orchestration, with
-a focus of using the same toolsets across disciplines.  Advocate for Open
-Source software use in the enterprise as well as for by individuals.
+business needs together with data center usage.  Cross functional focus on
+Network, Security, Virtulization, and UNIX Systems Engineering, trying to
+bridge the gaps between the disciplines.  Proponent of automation and
+orchestration, with a focus of using the same toolsets across disciplines.
+Advocate for Open Source software use in the enterprise as well as for by
+individuals.
 
 Personal
 ========
