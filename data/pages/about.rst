@@ -22,8 +22,8 @@ individuals.  Additional synopsis of my career can be found through my Resume_.
 Personal
 ========
 
-Outside of work I can be found spending time with his wife, and six
-children as well as caring for their small homestead.  Current occupants of the
+Outside of work I can be found spending time with my wife, and six
+children as well as caring for our small homestead.  Current occupants of the
 farm includes chickens and goats.  Prior to relocating back to Michigan there
 were also ducks, geese, sheep, rabbits, alpaca, pigs, and horses accounted upon
 our livestock.
