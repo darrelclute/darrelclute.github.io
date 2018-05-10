@@ -103,7 +103,7 @@ blockquote {
     border-left: 1px solid #EEE;
 }
 
-.date {
+.date, .avatar {
     color: #CCC;
     float: left;
     clear: both;
@@ -111,6 +111,10 @@ blockquote {
     font-size: 1.25em;
     line-height: 1em;
     margin: 0 20px 1em 0;
+}
+
+.avatar_img {
+    border-radius: 50%;
 }
 
 .info {
@@ -148,7 +152,7 @@ blockquote {
     border: 1px #999 solid;
 }
 
-.post {
+.post, .author_summary {
     margin: 0 0 4.5em 210px;
 }
 .post.archives {
@@ -276,6 +280,10 @@ header h2 {
     color: #DDD;
 }
 
+h2.title {
+    text-align: center;
+}
+
 #content {
     margin-top: 3em;
 }
@@ -337,7 +345,7 @@ code {
 
 footer {
     font-family: sans-serif;
-    line-height: 2.5em;
+    font-size: 75%;
     text-align: center;
     color: #BBB;
     margin: 3em 0;
@@ -345,6 +353,13 @@ footer {
     border-radius: 5px;
 }
 footer p { margin: 0; }
+
+.author_summary h4 {
+    text-align: center;
+}
+.author_summary p {
+    text-align: justify;
+}
 
 .right { float: right; }
 
