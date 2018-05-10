@@ -15,6 +15,7 @@ SITEURL = u'https://darrelclute.github.io'
 SITENAME = u'Darrel Clute'
 FEEDURL = None
 AUTHOR = u'Darrel Clute'
+AUTHOR_EMAIL = 'darrel@darrelclute.net'
 SITESUBTITLE = u''
 TIMEZONE = u'America/Detroit'
 DEFAULT_LANG = u'en'

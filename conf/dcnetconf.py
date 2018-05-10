@@ -24,6 +24,7 @@ SITEURL = u'//www.darrelclute.net'
 SITENAME = u'Darrel Clute'
 FEEDURL = SITEURL
 AUTHOR = u'Darrel Clute'
+AUTHOR_EMAIL = 'darrel@darrelclute.net'
 SITESUBTITLE = u'Ramblings from yet another IT Professional'
 TIMEZONE = u'America/Detroit'
 DEFAULT_LANG = u'en'
