@@ -11,7 +11,7 @@ from datetime import date
 # PLUGINS = ['series', 'interlinks', 'summary', 'neighbors']
 
 # General Settings
-SITEURL = u'https://darrelclute.github.io'
+SITEURL = u'https://www.darrelclute.net'
 SITENAME = u'Darrel Clute'
 FEEDURL = None
 AUTHOR = u'Darrel Clute'
@@ -81,3 +81,9 @@ AUTHOR_SUMMARY = "Darrel is an IT Infrastructure Architect focusing on Network a
 INTERLINKS = {
     'dcnet': 'https://www.darrelclute.net/'
 }
+
+MENUITEMS = [
+    ('About', 'https://www.darrelclute.net/about/'),
+    ('Disclaimer', 'https://www.darrelclute.net/disclaimer/'),
+    ('Resume', 'https://www.darrelclute.net/resume/'),
+]
