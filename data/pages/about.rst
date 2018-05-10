@@ -5,21 +5,24 @@ About
 :url: about/
 :save_as: about/index.html
 
+
+Hi, I am Darrel Clute, here is a brief synopsis on me.
+
 Professional
 ============
 
-Darrel Clute is an IT Infrastructure Architect, with a focus on bridging
-business needs together with data center usage.  Cross functional focus on
+I am an IT Infrastructure Architect, with a focus on bridging
+business needs together with data center usage.  I bring a cross functional focus on
 Network, Security, Virtulization, and UNIX Systems Engineering, trying to
-bridge the gaps between the disciplines.  Proponent of automation and
-orchestration, with a focus of using the same toolsets across disciplines.
-Advocate for Open Source software use in the enterprise as well as for by
-individuals.
+bridge the gaps between the disciplines.  I am a strong proponent of automation and
+orchestration, with a focus on using the same toolsets across disciplines.
+I also advocate for Open Source software use in the enterprise as well as for by
+individuals.  Additional synopsis of my career can be found through my Resume_.
 
 Personal
 ========
 
-Outside of work Darrel can be found spending time with his wife, and six
+Outside of work I can be found spending time with his wife, and six
 children as well as caring for their small homestead.  Current occupants of the
 farm includes chickens and goats.  Prior to relocating back to Michigan there
 were also ducks, geese, sheep, rabbits, alpaca, pigs, and horses accounted upon
