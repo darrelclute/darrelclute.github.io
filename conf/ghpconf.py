@@ -76,7 +76,7 @@ USER_LOGO_URL = u'https://www.gravatar.com/avatar/2c83f7fbc77af26448eb5da7399751
 
 DELETE_OUTPUT_DIRECTORY = False
 
-AUTHOR_SUMMARY = "Darrel is an IT Infrastructure Architect focusing on Network and UNIX Systems Engineering.  The majority of Darrel's career has focused on Cisco for networking and numerous Linux distributions for systems, but has varied expertise outside of these technologies."
+AUTHOR_SUMMARY = 'I am an IT Infrastructure Architect, with a focus on bridging business needs together with data center usage. I bring a cross functional focus on Network, Security, Virtulization, and UNIX Systems Engineering, trying to bridge the gaps between the disciplines. I am a strong proponent of automation and orchestration, with a focus on using the same toolsets across disciplines. I also advocate for Open Source software use in the enterprise as well as for by individuals.'
 
 INTERLINKS = {
     'dcnet': 'https://www.darrelclute.net/'
