@@ -40,7 +40,7 @@ prod:   darrel-resume
 
 ghp:
 	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -v $(PELICANOPTS)
-	ghp-import -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
+	ghp-import -l -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
 
 darrel-resume:
 	cd $(RESUMEDIR) ;\
