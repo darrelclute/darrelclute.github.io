@@ -68,6 +68,7 @@ GOOGLE_PLUS_USERNAME = u'DarrelClute'
 # Presentation
 DEFAULT_PAGINATION = 5
 RELATIVE_URLS = False
+DISPLAY_HOME = False
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 HIDE_CATEGORIES_FROM_MENU = False
@@ -83,6 +84,7 @@ INTERLINKS = {
 }
 
 MENUITEMS = [
+    ('Home', 'https://www.darrelclute.net/'),
     ('About', 'https://www.darrelclute.net/about/'),
     ('Disclaimer', 'https://www.darrelclute.net/disclaimer/'),
     ('Resume', 'https://www.darrelclute.net/resume/'),
