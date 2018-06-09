@@ -31,10 +31,13 @@ our livestock.
 Online
 ======
 
-You can find Darrel online in a professional context at LinkedIn_ and through
-his Resume_.
+You can find me online in a professional context at LinkedIn_.  I also post in
+a primarily professional context on Twitter_.  Feel free to connect with me on
+either or both of these platforms.
 
 
 .. _LinkedIn: https://www.linkedin.com/in/darrelclute
 
 .. _Resume: https://www.darrelclute.net/resume/
+
+.. _Twitter: https:///twitter.com/darrelclute
