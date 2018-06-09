@@ -349,4 +349,4 @@ Creek Michigan 49017 269-968-2271
 
 .. |---| unicode:: U+2014
 
-.. _Print Resume: http://www.darrelclute.net/pdf/darrelclute3-resume.pdf
+.. _Print Resume: https://www.darrelclute.net/pdf/darrelclute3-resume.pdf
