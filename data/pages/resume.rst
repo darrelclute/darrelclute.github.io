@@ -11,14 +11,37 @@ Resume
 IT Infrastructure Architect
 ===========================
 
-IT professional with over 15 years of experience in multiple roles, typically
-serving in a cross functional capacity.  Excels in a dynamic environment with
-constant change.  Prefers automation to manual repetition, and being a partner
-to the business instead of a simple services provider.
+IT Infrastructure Architect, with a focus on bridging business needs together
+with data center usage.  Brings a cross functional focus on Network, Security,
+Virtulization, and UNIX Systems Engineering, bridging the gaps between the
+disciplines.  Strong proponent of automation and orchestration, with a focus on
+using the same toolsets across disciplines.  Advocate for Open Source software
+use in the enterprise, along with supporting the communities of principle
+projects.
 
 
 Work Experience
 ===============
+
+06/2015 |--| Present |---| PLXIS LLC an Indepent Purchasing Cooperative
+Subsidiary, Miami Florida
+
+    06/2015 |--| Preent |---| Senior Infrastructure Engineer
+    
+    * Lead on third data center build.  Optimized design to support a
+      distributed application with given equipment purchased prior to build
+      project start.
+
+    * Designed and led the modernization of first two data centers.
+
+    * Ensure availability, reliability, and security of credit card processing
+      platform.
+
+    * Provide technical leadership in infrastructure through mentoring,
+      knowledge transfers, and pairing.
+
+    * Assist CTO in promoting and reinforcing an open and transparent culture.
+
 
 03/2011 |--| 02/2015 |---| ViaSat Inc. El Camino Real, Carlsbad California 92009
 760-476-2200
@@ -26,72 +49,22 @@ Work Experience
     03/2011 |--| 02/2015 |---| Senior Network Engineer
 
     * Focus on data center networking supporting Satellite Service Provider
-      back office and operational support systems, including:
-
-      * Cisco Nexus 7000, 5000, 2000, 1000V.
-
-      * Cisco Catalyst 2960, 3750.
-
-      * Cisco ASA.
-
-      * Cisco ACE.
-
-      * Cisco ACS.
-
-      * Juniper SA VPN Appliances.
-
-      * Juniper MX Routers.
-
-      * OSPF and MPLS internal network.
-
-      * BGP Peering with providers and at internal MPLS network CE-PE boundary.
+      back office and operational support systems.
 
     * Provide support and dissemination of knowledge to other engineers.
 
     * Work with business owners on architecture, implementation and support of
       their applications, with a focus on network services.
 
-    * Work with other data center infrastructure groups toward the completion of
-      projects our groups support.
-
     * Provide knowledge transfer and augmentation to other infrastructure groups
       where own knowledge or experience surpasses that of the functional groups
       subject matter expertise.
-
-      * Assist in the setup and maintenance of Red Hat Satellite.
-
-      * Provide training on the use of Git, along with proposing workflows to
-        encourage collaboration.
-
-      * Provide training and escalation on scripting and programming with
-        Python.
-      
-      * Evaluation of Splunk and ELK for log aggregation, building network
-        specific queries and assisting in building queries to correlate
-        network, systems, and application data.
-
-      * Setup CentOS 7 VM templates for use in a vSphere environment, using
-        cloud-init to customize the deployed virtual machines using the same
-        data structures as when deploying in the future to OpenStack or AWS.
 
     * Encourage the adoption of Infrastructure as Code and Agile Operations
       methods, procedures, and tools, across functional groups.
 
     * Implement and maintain server infrastructure supporting network
-      operations, including:
-
-        * Red Hat Enterprise Linux 5 and 6 for server OS.
-
-        * SaltStack for configuration management.
-
-        * Git for version control of configuration management data.
-
-        * Investigate use of SaltStack and ProxyMinion functionality to control
-          configuration of network devices through same interface as server
-          infrastructure.
-
-    * Utilize configuration management for network supporting server
-      infrastructure to automate the deployment of proxy white listing.
+      operations.
 
 
 07/2010 |--| 01/2011 |---| Consumers Energy One Energy Plaza Drive, Jackson Michigan
@@ -99,33 +72,15 @@ Work Experience
 
     07/2010 |--| 01/2011 |---| AMI Network Engineer
 
-    * Review and assess vendor equipment pertaining to Smart Grid Enablement
-      such as:
-
-        * Home Area Networking (HAN)
-
-        * Advanced Metering Infrastructure (AMI)
+    * Review and assess vendor equipment pertaining to Smart Grid Enablement.
 
     * Evaluate wireless communications utilizing IEEE 802.15.4 (ZigBee)
-      between AMI meters and HAN equipment such as:
-
-        * Appliances
-
-        * Home energy displays
-
-        * Environmental controls
+      between AMI meters and Home Area Network  equipment.
 
     * Evaluate wireless communications of AMI meters in a mesh, along with
       transport of data back to head end.  
 
-    * Evaluate functionality of vendor head end for their AMI solution.
-
-    * Manage VMware environment of approximately 200 virtual machines,
-      containing internal servers and vendor environments.
-
-    * Enabled the Cisco Nexus 1000V virtual switch in a portion of the lab
-      environment for demonstration purposes, with goal of enabling throughout
-      the VMware infrastructure to provide greater network level control.
+    * Evaluate functionality of vendor head end for respective AMI solution.
 
 
 02/2009 |--| 07/2010 |---| Netarx, LLC (Acquired by Logicalis Group in July, 2011)
@@ -134,47 +89,17 @@ Work Experience
 
     08/2009 |--| 07/2010 |---| Network Engineer
 
-    * On-demand work for customers, including:
+    * On-demand infrastructure support for customers.
 
-        * Temporary staff augmentation
+    * Production of implementation plans and detailed design documents for
+      customer projects.
 
-        * Break-fix resolution
+    * Execution of implementation plans for customer projects.
 
-    * Project based work for customers, including:
+    * Perform assessments on existing customer infrastructure.
 
-        * Some pre-sales engineering
-
-        * Production of implementation plans and detailed design documents
-
-        * Execution of implementation plans
-
-    * Perform assessments on customer infrastructure
-
-        * Assess current state manually and with automated tools
-
-        * Generate report for customer
-
-        * Review report with customer staff
-
-    * Peer review of customer deliverables.
-
-    * Areas of expertise:
-
-        * Network Management
-
-        * Routing
-
-        * Switching
-
-        * Data Center Technologies
-
-        * Security
-
-        * Wireless
-
-        * UNIX (HP-UX, Solaris)
-
-        * Linux
+    * Peer review of customer deliverables from pre-sales as well as post-sales
+      engineers.
 
 
 03/2005 |--| 02/2009 |---| Liquid Web Inc. 4210 S Creyts Rd, Lansing Michigan 48917
@@ -182,50 +107,19 @@ Work Experience
 
     08/2008 |--| 02/2009 |---| System Administrator
 
-    * Technical support provided to web hosting customers, such as:
+    * Technical support provided to web hosting customers.
 
-        * Hosting control panels (cPanel, Plesk)
+    03/2005 |--| 08/2008 |---| Senior Network Engineer
 
-        * Web servers (Apache, IIS)
-
-        * Email services
-
-        * Host firewalls (IPTables, Windows Firewall)
-
-    03/2005 |--| 08/2008 |---| Network Engineer
-
-        * Design, implement and maintain globally accessible web hosting
+        * Design, implement, and maintain globally accessible web hosting
           network infrastructure.
 
-            * Monitor and rebalanced outbound traffic flow over multiple
-              carriers.
-
-            * Manage IP allocations for use, and acquisitions through ARIN
-
-            * Implement and maintain distributed authentication for network
-              devices, utilizing:
-
-                * Shrubbery Networks tac_plus daemon
-
-                * PAM
-
-                * OpenLDAP
-
-                * MIT Kerberos
-
-            * Implement and maintain distributed syslog infrastructure.
-
-            * Implement and maintain distributed SNMP trap and notification
-              system.
-
-        * Design and maintain product development around network based services
-          such as hardware firewalls and load balancers.
+        * Design and maintain product development around network based
+          services.
 
         * Provide escalation support for suspected network related issues.
 
         * Provide customer support on network based services.
-
-        * Provide training and documentation to engineering and support staff.
 
 
 03/2003 |--| 03/2005 |---| Lansing State Journal 120 E Lenawee St, Lansing Michigan
@@ -235,17 +129,7 @@ Work Experience
 
     * Project coordination for UNIX server infrastructure and core networking.
 
-    * Maintain server infrastructure on various platforms, such as:
-
-        * Solaris
-
-        * Linux
-
-        * BSD
-
-        * Windows
-
-        * Mac OS 9 and 10
+    * Maintain server infrastructure on various platforms.
 
     * Maintain core network infrastructure for both the LAN and WAN.
 
@@ -290,13 +174,10 @@ Work Experience
 
     * Provide technical support to customers both residential and commercial.
 
-    * Assist with management of servers, and network equipment.
+    * Assist with management of servers, and network infrastructure.
 
     * Assisted in the implementation and maintenance of OSPF and BGP routing
       architecture.
-
-    * Assisted in the maintenance of the ATM LANE environment which fed the
-      Paradyne DSLAMs.
 
     * Maintain database for trouble tickets both internal and with Ameritech.
 
