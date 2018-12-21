@@ -24,9 +24,9 @@ Work Experience
 ===============
 
 06/2015 |--| Present |---| PLXIS LLC an Indepent Purchasing Cooperative
-Subsidiary, Miami Florida
+Subsidiary, 9200 S Dadeland Blvd., Suite 800, Miami Florida 33156, 305-670-0041
 
-    06/2015 |--| Preent |---| Senior Infrastructure Engineer
+    06/2015 |--| Present |---| Senior Infrastructure Engineer
     
     * Lead on third data center build.  Optimized design to support a
       distributed application with given equipment purchased prior to build
@@ -43,7 +43,7 @@ Subsidiary, Miami Florida
     * Assist CTO in promoting and reinforcing an open and transparent culture.
 
 
-03/2011 |--| 02/2015 |---| ViaSat Inc. El Camino Real, Carlsbad California 92009
+03/2011 |--| 02/2015 |---| ViaSat Inc. 6155 El Camino Real, Carlsbad California 92009,
 760-476-2200
 
     03/2011 |--| 02/2015 |---| Senior Network Engineer
@@ -68,7 +68,7 @@ Subsidiary, Miami Florida
 
 
 07/2010 |--| 01/2011 |---| Consumers Energy One Energy Plaza Drive, Jackson Michigan
-49201 517-788-0550
+49201, 517-788-0550
 
     07/2010 |--| 01/2011 |---| AMI Network Engineer
 
@@ -85,9 +85,7 @@ Subsidiary, Miami Florida
 
 02/2009 |--| 07/2010 |---| Netarx, LLC (Acquired by Logicalis Group in July, 2011)
 
-    (Netarx acquired Analysts International VAR business unit in August 2009)
-
-    08/2009 |--| 07/2010 |---| Network Engineer
+    02/2009 |--| 07/2010 |---| Network Engineer
 
     * On-demand infrastructure support for customers.
 
@@ -102,7 +100,7 @@ Subsidiary, Miami Florida
       engineers.
 
 
-03/2005 |--| 02/2009 |---| Liquid Web Inc. 4210 S Creyts Rd, Lansing Michigan 48917
+03/2005 |--| 02/2009 |---| Liquid Web Inc. 4210 S Creyts Rd, Lansing Michigan 48917,
 800-580-4985
 
     08/2008 |--| 02/2009 |---| System Administrator
@@ -123,7 +121,7 @@ Subsidiary, Miami Florida
 
 
 03/2003 |--| 03/2005 |---| Lansing State Journal 120 E Lenawee St, Lansing Michigan
-48919 517-377-1000
+48919, 517-377-1000
 
     03/2003 |--| 03/2005 |---| Information Technology Coordinator
 
@@ -182,7 +180,7 @@ Subsidiary, Miami Florida
     * Maintain database for trouble tickets both internal and with Ameritech.
 
 
-06/2001 |--| 03/2002 |---| Albion College 611 East Porter, Albion, Michigan 49224
+06/2001 |--| 03/2002 |---| Albion College 611 East Porter, Albion, Michigan 49224,
 517-629-1000
 
     06/2001 |--| 03/2002 |---| Network Assistant
