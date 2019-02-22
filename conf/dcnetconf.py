@@ -65,6 +65,7 @@ STATIC_PATHS = [
     'static/robots.txt',
     'static/keybase.txt',
     'static/favicon.ico',
+    'static/jid71cwd15pf9zorescqogm9dypqfbzs',
 ]
 
 EXTRA_PATH_METADATA = {
@@ -74,6 +75,7 @@ EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
     'static/keybase.txt': {'path': 'keybase.txt'},
     'static/favicon.ico': {'path': 'favicon.ico'},
+    'static/jid71cwd15pf9zorescqogm9dypqfbzs': {'path': '.well-known/openpgpkey/hu/jid71cwd15pf9zorescqogm9dypqfbzs'},
 }
 
 SITEMAP = {
