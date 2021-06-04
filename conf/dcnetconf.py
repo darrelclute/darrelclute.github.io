@@ -84,7 +84,7 @@ SITEMAP = {
 
 # Feed Settings
 FEED_ALL_ATOM = u'feeds/index.xml'
-CATEGORY_FEED_ATOM = u'feeds/%s/index.xml'
+CATEGORY_FEED_ATOM = u'feeds/{slug}/index.xml'
 TRANSLATION_FEED_ATOM = None
 
 # Social Links
