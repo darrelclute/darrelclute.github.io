@@ -13,6 +13,8 @@ GHPCONFFILE=$(BASEDIR)/conf/ghpconf.py
 RESUMEDIR=$(BASEDIR)/resume
 RESUMEPDF=$(RESUMEDIR)/resume.pdf
 GITHUB_PAGES_BRANCH=master
+PYCURDIR != python -c 'from pathlib import Path; print(Path.cwd())'
+PDFLATEX != which pdflatex 2>&1
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -32,6 +34,13 @@ help:
 	@echo '                                                                       '
 
 html:
+ifeq ($(DEBUG), 1)
+	$(info PELICANOPTS is $(PELICANOPTS))
+	$(info BASEDIR is $(BASEDIR))
+	$(info CONFFILE is $(CONFFILE))
+	$(info PYCURDIR is $(PYCURDIR))
+	$(info PDFLATEX is $(PDFLATEX))
+endif
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) -v $(PELICANOPTS)
 
 
