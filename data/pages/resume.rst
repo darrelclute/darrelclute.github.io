@@ -4,9 +4,7 @@ Resume
 
 :url: resume/
 :save_as: resume/index.html
-
-`Print Resume`_ 
-
+:status: hidden
 
 IT Infrastructure Architect
 ===========================
@@ -227,5 +225,3 @@ Creek Michigan 49017 269-968-2271
 .. |--| unicode:: U+2013
 
 .. |---| unicode:: U+2014
-
-.. _Print Resume: https://www.darrelclute.net/pdf/darrelclute3-resume.pdf

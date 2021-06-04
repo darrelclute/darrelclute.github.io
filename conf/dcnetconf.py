@@ -59,7 +59,6 @@ PAGINATION_PATTERNS = (
 )
 
 STATIC_PATHS = [
-    'static/resume.pdf',
     'static/pgp-key.txt',
     'static/pgp-transition-statement.txt',
     'static/robots.txt',
@@ -69,7 +68,6 @@ STATIC_PATHS = [
 ]
 
 EXTRA_PATH_METADATA = {
-    'static/resume.pdf': {'path': 'pdf/darrelclute3-resume.pdf'},
     'static/pgp-key.txt': {'path': 'pgp-key.txt'},
     'static/pgp-transition-statement.txt': {'path': 'pgp-transition-statement.txt'},
     'static/robots.txt': {'path': 'robots.txt'},
