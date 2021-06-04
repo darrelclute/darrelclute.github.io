@@ -8,4 +8,4 @@ from conf.dcnetconf import *
 from datetime import date
 
 # General Settings
-SITEURL = u'//dev.darrelcluten.net'
+SITEURL = u'//dev.darrelclute.net'
