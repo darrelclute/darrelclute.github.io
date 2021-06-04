@@ -3,7 +3,8 @@
 from __future__ import unicode_literals
 import os
 import sys
-from .dcnetconf import *
+sys.path.append('.')
+from conf.dcnetconf import *
 from datetime import date
 
 # General Settings
