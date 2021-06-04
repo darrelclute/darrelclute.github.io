@@ -6,7 +6,7 @@ import sys
 from datetime import date
 
 # Plugin settings, do not alter path without altering build script
-PLUGIN_PATHS = ['../../pelican-plugins']
+PLUGIN_PATHS = ['plugins']
 # Uncomment the following line to enable plugins, add or subtract as desired
 PLUGINS = [
     'series',
@@ -50,7 +50,7 @@ ARCHIVES_SAVE_AS = u'archives/index.html'
 CATEGORIES_SAVE_AS = u'category/index.html'
 SUMMARY_USE_FIRST_PARAGRAPH = True
 ARTICLE_EXCLUDES = ('pages', 'drafts', 'static')
-THEME = '../dcnet-green-penguin'
+THEME = 'themes/dcnet-green-penguin'
 THEME_STATIC_DIR = ''
 
 PAGINATION_PATTERNS = (
