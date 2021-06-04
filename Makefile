@@ -1,14 +1,14 @@
-PY?=python
+PY?=python3
 PELICAN?=pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
-DCNETINPUTDIR=$(BASEDIR)/data
+INPUTDIR=$(BASEDIR)/data
 GHPINPUTDIR=$(BASEDIR)/ghp
-DCNETOUTPUTDIR=$(BASEDIR)/dcnetoutput
-DCNETPRODDIR=/var/www/html
+OUTPUTDIR=$(BASEDIR)/output
 GHPOUTPUTDIR=$(BASEDIR)/ghpoutput
-DCNETCONFFILE=$(BASEDIR)/conf/dcnetconf.py
+CONFNAME?=dcnetconf.py
+CONFFILE=$(BASEDIR)/conf/$(CONFNAME)
 GHPCONFFILE=$(BASEDIR)/conf/ghpconf.py
 RESUMEDIR=$(BASEDIR)/resume
 RESUMEPDF=$(RESUMEDIR)/resume.pdf
@@ -23,34 +23,30 @@ help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
 	@echo 'Usage:                                                                 '
-	@echo '   make dcnet                       (re)generate the web site          '
-	@echo '   make prod                        (re)generate the production site   '
-	@echo '   make ghp                         (re)generate the web site          '
+	@echo '   make html                        (re)generate the web site          '
+	@echo '   make ghp                         (re)generate GitHub Pages          '
+	@echo '   make resume                      (re)generate resume PDF from latex '
 	@echo '   make clean                       remove the generated files         '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 ghp '
 	@echo '                                                                       '
 
-dcnet:	darrel-resume
-	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETOUTPUTDIR) -s $(DCNETCONFFILE) -v $(PELICANOPTS)
+html:	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) -v $(PELICANOPTS)
 
-prod:   darrel-resume
-	$(PELICAN) $(DCNETINPUTDIR) -o $(DCNETPRODDIR) -s $(DCNETCONFFILE) -v $(PELICANOPTS)
-	chcon -R -u system_u -r object_r -t httpd_sys_content_t $(DCNETPRODDIR)
 
 ghp:
 	$(PELICAN) $(GHPINPUTDIR) -o $(GHPOUTPUTDIR) -s $(GHPCONFFILE) -v $(PELICANOPTS)
 	ghp-import -l -n -p -b $(GITHUB_PAGES_BRANCH) $(GHPOUTPUTDIR)
 
-darrel-resume:
+resume:
 	cd $(RESUMEDIR) ;\
 	pdflatex resume.tex ;\
 	pdflatex resume.tex ;\
 	pdflatex resume.tex ;\
-	mv $(RESUMEPDF) $(DCNETINPUTDIR)/static/
+	mv $(RESUMEPDF) $(INPUTDIR)/static/
 
 clean:
-	[ ! -d $(DCNETOUTPUTDIR) ] || rm -rf $(DCNETOUTPUTDIR)
+	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 	[ ! -d $(GHPOUTPUTDIR) ] || rm -rf $(GHPOUTPUTDIR)
 	[ ! -d $(BASEDIR)/conf/cache ] || rm -rf $(BASEDIR)/conf/cache
 	rm -rf $(BASEDIR)/conf/*.pyc
