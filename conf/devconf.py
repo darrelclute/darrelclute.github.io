@@ -8,5 +8,5 @@ from conf.dcnetconf import *
 from datetime import date
 
 # General Settings
-SITEURL = None
+SITEURL = u''
 RELATIVE_URLS = True
