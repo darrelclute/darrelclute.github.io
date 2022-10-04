@@ -73,7 +73,8 @@ EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
     'static/keybase.txt': {'path': 'keybase.txt'},
     'static/favicon.ico': {'path': 'favicon.ico'},
-    'static/jid71cwd15pf9zorescqogm9dypqfbzs': {'path': '.well-known/openpgpkey/hu/jid71cwd15pf9zorescqogm9dypqfbzs'},
+    'static/pgp-policy': {'path': '.well-known/openpgpkey/darrelclute.net/policy'},
+    'static/jid71cwd15pf9zorescqogm9dypqfbzs': {'path': '.well-known/openpgpkey/darrelclute.net/hu/jid71cwd15pf9zorescqogm9dypqfbzs'},
 }
 
 SITEMAP = {
